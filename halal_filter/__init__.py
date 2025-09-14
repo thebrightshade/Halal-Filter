@@ -1,2 +1,3 @@
-from .core import HalalFilter, ScreenResult
-__all__ = ["HalalFilter", "ScreenResult"]
+from .core import HalalFilter
+
+__all__ = ["HalalFilter"]
