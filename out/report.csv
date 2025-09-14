@@ -1,0 +1,6 @@
+symbol,is_halal,reason,sector,industry,debt_to_assets,debt_to_mktcap,cashinv_to_mktcap,noncompliant_rev_ratio,used_allowlist
+AAPL,True,passed,technology,consumer electronics,0.29215025480848267,0.030696154672340274,0.018761304111930974,,False
+MSFT,True,passed,technology,software - infrastructure,0.06971048605580264,0.011384967324725286,0.024947407600968675,,False
+TSLA,True,passed,consumer cyclical,auto manufacturers,0.0645367412140575,0.0061687372976293245,0.028630051004470802,,False
+NFLX,False,industry keyword 'entertainment',communication services,entertainment,,,,,False
+TLRY,False,summary keyword 'cannabis',healthcare,drug manufacturers - specialty & generic,,,,,False
