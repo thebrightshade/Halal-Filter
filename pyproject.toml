@@ -8,6 +8,7 @@ dependencies = [
   "pandas>=2.2",
   "yfinance>=0.2.40",
   "typer>=0.12",
+  "requests>=2.31",   # <- add this
 ]
 
 [project.scripts]
@@ -17,14 +18,12 @@ halal-filter = "halal_filter.cli:main"
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
-# --- Tell setuptools exactly what to package ---
 [tool.setuptools]
 package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
-include = ["halal_filter*"]     # only the package
-exclude = ["data*", "out*", "tests*"]  # ignore these folders
+include = ["halal_filter*"]
+exclude = ["data*", "out*", "tests*"]
 
-# If you later want to ship non-code files, list them here.
 [tool.setuptools.package-data]
 halal_filter = []
