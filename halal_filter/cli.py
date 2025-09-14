@@ -1,13 +1,20 @@
 from __future__ import annotations
+from enum import Enum
 import sys
 import time
 from pathlib import Path
-from typing import Literal
 import typer
 import pandas as pd
 from .core import HalalFilter
 
-DotPolicy = Literal["translate", "skip", "keep"]
+
+class DotPolicy(str, Enum):
+    translate = "translate"
+    skip = "skip"
+    keep = "keep"
+
+
+app = typer.Typer(add_help_option=True)
 
 
 def _load_symbols_from_file(path: str | Path, column: str | None = None) -> list[str]:
@@ -24,42 +31,10 @@ def _load_symbols_from_file(path: str | Path, column: str | None = None) -> list
                 break
         else:
             col = df.columns[0]
-    return (
-        df[col].astype(str).str.strip().str.upper(
-        ).loc[lambda s: s != ""].tolist()
-    )
+    return df[col].astype(str).str.strip().str.upper().loc[lambda s: s != ""].tolist()
 
 
-def _apply_dot_policy(symbols: list[str], policy: DotPolicy):
-    """
-    Returns (fetch_list, fetch_to_original_map)
-
-    - translate: replace '.' with '-' for fetch; keep original for output
-    - skip: drop any symbol containing '.'
-    - keep: use symbols as-is
-    """
-    fetch_to_orig: dict[str, str] = {}
-    fetch_list: list[str] = []
-
-    for sym in symbols:
-        if "." in sym:
-            if policy == "skip":
-                continue
-            elif policy == "translate":
-                fetch_sym = sym.replace(".", "-")
-            else:  # keep
-                fetch_sym = sym
-        else:
-            fetch_sym = sym
-
-        # Deduplicate if multiple originals map to same fetch (rare)
-        if fetch_sym not in fetch_to_orig:
-            fetch_to_orig[fetch_sym] = sym
-            fetch_list.append(fetch_sym)
-
-    return fetch_list, fetch_to_orig
-
-
+@app.command()
 def screen(
     symbols: str = typer.Option(
         None, help="Comma-separated tickers, e.g. 'AAPL,MSFT,TSLA'. Optional if --symbols-file is used."),
@@ -80,17 +55,16 @@ def screen(
     sleep_ms: int = typer.Option(0, help="Sleep between symbols (ms)."),
     quiet: bool = typer.Option(
         False, help="Suppress table print when writing files."),
-    # Batch mode
-    batch_size: int = typer.Option(
-        0, help="If > 0, split symbols into batches of this size and run sequentially."),
-    batch_sleep_ms: int = typer.Option(0, help="Sleep between batches (ms)."),
-    max_batches: int | None = typer.Option(
-        None, help="Optional cap on number of batches (for testing)."),
-    # NEW: dot ticker policy
     dot_policy: DotPolicy = typer.Option(
-        "translate", help="How to handle dot tickers (e.g., BRK.B): translate | skip | keep"),
+        DotPolicy.skip, "--dot-policy", help="Handle tickers containing '.' (translate|skip|keep)"),
+    # batch helper
+    batch_size: int = typer.Option(
+        0, help="If >0, split the list into chunks of this size."),
+    max_batches: int | None = typer.Option(
+        None, help="Optional cap on how many chunks to process."),
+    batch_sleep_ms: int = typer.Option(0, help="Sleep between batches (ms)."),
 ) -> None:
-    # Resolve symbols (originals)
+    # Resolve symbols
     syms: list[str] = []
     if symbols:
         syms.extend([s.strip().upper()
@@ -102,10 +76,7 @@ def screen(
         raise typer.BadParameter(
             "No symbols provided. Use --symbols or --symbols-file.")
 
-    # Apply dot policy → build fetch list + map back to originals
-    fetch_list, fetch_to_orig = _apply_dot_policy(syms, dot_policy)
-
-    # Outputs
+    # Resolve outputs
     if out_dir:
         outp = Path(out_dir)
         outp.mkdir(parents=True, exist_ok=True)
@@ -114,39 +85,33 @@ def screen(
         if not full_report:
             full_report = str(outp / "report.csv")
 
-    hf = HalalFilter(sleep_between_calls=max(0, sleep_ms) / 1000.0)
+    hf = HalalFilter(sleep_between_calls=max(
+        0, sleep_ms) / 1000.0, quiet=quiet)
     if allowlist:
         hf.load_allowlist_csv(allowlist)
     if denylist:
         hf.load_denylist_csv(denylist)
 
-    # ---- Batch or single pass on FETCH symbols ----
-    all_frames: list[pd.DataFrame] = []
-
+    # ---- Single pass or batch mode ----
+    frames: list[pd.DataFrame] = []
     if batch_size and batch_size > 0:
-        total = len(fetch_list)
-        chunks = [fetch_list[i:i + batch_size]
-                  for i in range(0, total, batch_size)]
+        total = len(syms)
+        chunks = [syms[i:i + batch_size] for i in range(0, total, batch_size)]
         if max_batches is not None:
             chunks = chunks[:max_batches]
-
         for i, chunk in enumerate(chunks, start=1):
             if not quiet:
                 print(
-                    f"[Batch {i}/{len(chunks)}] Screening {len(chunk)} symbols (dot_policy={dot_policy})...")
-            df_part = hf.screen_symbols(chunk, use_allowlist=True)
-            all_frames.append(df_part)
+                    f"[Batch {i}/{len(chunks)}] Screening {len(chunk)} symbols (dot_policy={dot_policy.value})...")
+            part = hf.screen_symbols(
+                chunk, use_allowlist=True, dot_policy=dot_policy.value)
+            frames.append(part)
             if batch_sleep_ms > 0 and i < len(chunks):
                 time.sleep(batch_sleep_ms / 1000.0)
-
-        df = pd.concat(all_frames, ignore_index=True) if all_frames else pd.DataFrame(
-            columns=["symbol", "is_halal"])
+        df = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
     else:
-        df = hf.screen_symbols(fetch_list, use_allowlist=True)
-
-    # Map symbols in the result back to the ORIGINALS
-    if "symbol" in df.columns:
-        df["symbol"] = df["symbol"].map(fetch_to_orig).fillna(df["symbol"])
+        df = hf.screen_symbols(syms, use_allowlist=True,
+                               dot_policy=dot_policy.value)
 
     # Write outputs
     if full_report:
@@ -166,8 +131,8 @@ def screen(
     if not quiet and not (whitelist or full_report):
         cols = ["symbol", "is_halal", "reason", "sector", "industry",
                 "debt_to_assets", "debt_to_mktcap", "cashinv_to_mktcap"]
-        present_cols = [c for c in cols if c in df.columns]
-        print(df[present_cols].sort_values(["is_halal", "symbol"],
+        present = [c for c in cols if c in df.columns]
+        print(df[present].sort_values(["is_halal", "symbol"],
               ascending=[False, True]).to_string(index=False))
 
     # Summary + CI-friendly exit code
@@ -182,7 +147,6 @@ def screen(
 
 
 def main():
-    # single-command style: allow `halal-filter ...`
     typer.run(screen)
 
 
