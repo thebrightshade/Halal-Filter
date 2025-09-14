@@ -1,6 +1,9 @@
 symbol,is_halal,reason,sector,industry,debt_to_assets,debt_to_mktcap,cashinv_to_mktcap,noncompliant_rev_ratio,used_allowlist
 AAPL,True,passed,technology,consumer electronics,0.29215025480848267,0.030696154672340274,0.018761304111930974,,False
+AMZN,True,passed,consumer cyclical,internet retail,0.08421108219954104,0.02162710431754765,0.0415921975399437,,False
+AVGO,False,ratio debt/assets=0.408 or debt/mktcap=0.040 > 0.33,technology,semiconductors,0.4076609616951915,0.03973495570892189,,,False
+GOOGL,True,passed,communication services,internet content & information,0.02417069400518816,0.0037329486738317762,0.0328110512995246,,False
+META,True,passed,communication services,internet content & information,0.10442159867272345,0.015186381642361024,0.04099522262888792,,False
 MSFT,True,passed,technology,software - infrastructure,0.06971048605580264,0.011384967324725286,0.024947407600968675,,False
+NVDA,True,passed,technology,semiconductors,,,0.00998063484372912,,False
 TSLA,True,passed,consumer cyclical,auto manufacturers,0.0645367412140575,0.0061687372976293245,0.028630051004470802,,False
-NFLX,False,industry keyword 'entertainment',communication services,entertainment,,,,,False
-TLRY,False,summary keyword 'cannabis',healthcare,drug manufacturers - specialty & generic,,,,,False

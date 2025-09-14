@@ -1,10 +1,12 @@
 """
-halal_filter.py — Personal-use halal stock screener (industry + ratios + optional allow/deny lists)
+halal_filter.core — Personal-use halal stock screener (industry + ratios + allow/deny)
 
 Features
 --------
-1) Industry exclusion (movies/tv/music/streaming, cannabis, gambling, alcohol, pork, tobacco, adult, weapons,
-   conventional finance, etc.) using sector/industry only (summary is ignored except for cannabis).
+1) Sector/industry exclusion (movies/TV/music/streaming, gambling, alcohol, pork, tobacco,
+   adult, weapons/defense, conventional finance, cannabis). We scan ONLY sector/industry
+   for general prohibitions; business summary is scanned *only* for cannabis terms to catch
+   misclassified pharma tickers.
 2) Financial ratio screens (AAOIFI-style defaults; configurable):
      - interest-bearing debt / total assets ≤ 33%
      - interest-bearing debt / market cap ≤ 33%
@@ -13,41 +15,30 @@ Features
 4) Optional denylist overlay to force-exclude edge cases.
 5) Fail-closed semantics: missing/ambiguous fundamentals => excluded.
 
-Usage (CLI)
------------
-# Basic run with whitelist + full report
-python halal_filter.py screen --symbols AAPL,MSFT,TSLA,NFLX,TLRY --whitelist out/halal.csv --full-report out/report.csv
-
-# Include an allowlist (one ticker per line or a 'symbol' column)
-python halal_filter.py screen --symbols AAPL,MSFT,TSLA --allowlist data/hlal_constituents.csv --whitelist out/halal.csv
-
-# Include a denylist
-python halal_filter.py screen --symbols AAPL,MSFT,TSLA --denylist data/denylist.csv --full-report out/report.csv
-
-Programmatic
-------------
+Usage (programmatic)
+--------------------
 from halal_filter import HalalFilter
 hf = HalalFilter()
-hf.load_allowlist_csv("data/hlal_constituents.csv")  # optional
-hf.load_denylist_csv("data/denylist.csv")           # optional
-ok = hf.ok("AAPL")                                  # True/False
-df = hf.screen_symbols(["AAPL","MSFT","NFLX"])      # DataFrame of results
+hf.load_allowlist_csv("data/allowlist.csv")  # optional
+hf.load_denylist_csv("data/denylist.csv")    # optional
+ok = hf.ok("AAPL")
+df = hf.screen_symbols(["AAPL","MSFT","TSLA"])
 """
 
 from __future__ import annotations
+
 import dataclasses as _dc
 from typing import Dict, List, Optional
-import pandas as pd
-import typer
-import time
-import re
 import math
-from time import sleep
+import re
+import time
+
+import pandas as pd
 
 try:
     import yfinance as yf
 except ImportError as e:
-    raise SystemExit("Please `pip install yfinance pandas typer`") from e
+    raise SystemExit("Please `pip install yfinance pandas` to use halal_filter") from e
 
 
 # -----------------------------
@@ -60,7 +51,7 @@ def _with_retry(fn, tries: int = 2, wait: float = 0.3):
             return fn()
         except Exception as e:
             last = e
-            sleep(wait)
+            time.sleep(wait)
     raise last
 
 
@@ -143,8 +134,7 @@ SHORT_INV_ROW_NAMES = [
 
 AAOIFI_MAX_DEBT_TO_ASSETS = 0.33
 AAOIFI_MAX_CASH_INV_TO_MKT_CAP = 0.33
-# placeholder; requires segment data (not enforced here)
-AAOIFI_MAX_NONCOMPLIANT_REV = 0.05
+AAOIFI_MAX_NONCOMPLIANT_REV = 0.05  # placeholder; requires segment data (not enforced here)
 
 # Strict sector/industry keywords (whole-word; sector/industry ONLY)
 PROHIBITED_KEYWORDS = {
@@ -170,8 +160,7 @@ PROHIBITED_KEYWORDS = {
 EDGE_KEYWORDS = {"music", "streaming"}
 
 # Summary is ignored EXCEPT for cannabis-family words (to catch misclassified pharma)
-CANNABIS_KEYWORDS_SUMMARY_ONLY = {"cannabis",
-                                  "marijuana", "hemp", "weed", "dispensary"}
+CANNABIS_KEYWORDS_SUMMARY_ONLY = {"cannabis", "marijuana", "hemp", "weed", "dispensary"}
 
 
 # -----------------------------
@@ -215,8 +204,7 @@ class HalalFilter:
         self.max_debt_to_assets = max_debt_to_assets
         self.max_cashinv_to_mktcap = max_cashinv_to_mktcap
         self.max_noncompliant_rev = max_noncompliant_rev
-        self.prohibited_keywords = set(
-            prohibited_keywords) if prohibited_keywords else set(PROHIBITED_KEYWORDS)
+        self.prohibited_keywords = set(prohibited_keywords) if prohibited_keywords else set(PROHIBITED_KEYWORDS)
         self.fail_closed = fail_closed
         self.sleep_between_calls = sleep_between_calls
 
@@ -264,15 +252,13 @@ class HalalFilter:
             return self._cache[symbol]
 
         if symbol in self._denylist:
-            res = ScreenResult(
-                symbol=symbol, is_halal=False, reason="denylist")
+            res = ScreenResult(symbol=symbol, is_halal=False, reason="denylist")
             self._cache[symbol] = res
             return res
 
         # Allowlist short-circuit (trusted overlay—e.g., Islamic ETF list you control)
         if use_allowlist and symbol in self._allowlist:
-            res = ScreenResult(symbol=symbol, is_halal=True,
-                               reason="allowlist", used_allowlist=True)
+            res = ScreenResult(symbol=symbol, is_halal=True, reason="allowlist", used_allowlist=True)
             self._cache[symbol] = res
             return res
 
@@ -285,16 +271,14 @@ class HalalFilter:
 
             # ---- Industry exclusion (sector/industry ONLY) ----
             sector_industry_text = " ".join([sector, industry])
-            hit, kw = _contains_kw(sector_industry_text,
-                                   self.prohibited_keywords)
+            hit, kw = _contains_kw(sector_industry_text, self.prohibited_keywords)
             if hit:
                 res = ScreenResult(symbol=symbol, is_halal=False, reason=f"industry keyword '{kw}'",
                                    sector=sector or None, industry=industry or None)
                 self._cache[symbol] = res
                 return res
 
-            hit_edge, kw_edge = _contains_kw(
-                sector_industry_text, EDGE_KEYWORDS)
+            hit_edge, kw_edge = _contains_kw(sector_industry_text, EDGE_KEYWORDS)
             if hit_edge:
                 res = ScreenResult(symbol=symbol, is_halal=False, reason=f"industry keyword '{kw_edge}'",
                                    sector=sector or None, industry=industry or None)
@@ -303,8 +287,7 @@ class HalalFilter:
 
             # ---- Cannabis-only summary scan (to catch misclassified pharma) ----
             summary = str(info.get("longBusinessSummary", "") or "").lower()
-            hit_cannabis, kw_c = _contains_kw(
-                summary, CANNABIS_KEYWORDS_SUMMARY_ONLY)
+            hit_cannabis, kw_c = _contains_kw(summary, CANNABIS_KEYWORDS_SUMMARY_ONLY)
             if hit_cannabis:
                 res = ScreenResult(symbol=symbol, is_halal=False, reason=f"summary keyword '{kw_c}'",
                                    sector=sector or None, industry=industry or None)
@@ -330,8 +313,7 @@ class HalalFilter:
                 return self._fail(symbol, "missing assets", sector, industry)
 
             cash = _first_available(bs, CASH_ROW_NAMES, latest_col) or 0.0
-            short_inv = _first_available(
-                bs, SHORT_INV_ROW_NAMES, latest_col) or 0.0
+            short_inv = _first_available(bs, SHORT_INV_ROW_NAMES, latest_col) or 0.0
 
             market_cap = _safe_market_cap(ticker, info)
             if market_cap is None or market_cap <= 0:
@@ -367,13 +349,11 @@ class HalalFilter:
 
         except Exception as e:
             if self.fail_closed:
-                res = ScreenResult(symbol=symbol, is_halal=False,
-                                   reason=f"error: {type(e).__name__}")
+                res = ScreenResult(symbol=symbol, is_halal=False, reason=f"error: {type(e).__name__}")
                 self._cache[symbol] = res
                 return res
             else:
-                res = ScreenResult(
-                    symbol=symbol, is_halal=True, reason="error-ignored")
+                res = ScreenResult(symbol=symbol, is_halal=True, reason="error-ignored")
                 self._cache[symbol] = res
                 return res
 
@@ -408,54 +388,3 @@ class HalalFilter:
                            cashinv_to_mktcap=value)
         self._cache[symbol] = res
         return res
-
-
-# -----------------------------
-# CLI
-# -----------------------------
-app = typer.Typer(add_help_option=True)
-
-
-@app.command()
-def screen(
-    symbols: str = typer.Option(...,
-                                help="Comma-separated tickers, e.g. 'AAPL,MSFT,TSLA'"),
-    allowlist: Optional[str] = typer.Option(
-        None, help="CSV file with one ticker per line (or column 'symbol')"),
-    denylist: Optional[str] = typer.Option(
-        None, help="CSV file with one ticker per line (or column 'symbol')"),
-    whitelist: Optional[str] = typer.Option(
-        None, help="Output CSV path for halal whitelist"),
-    full_report: Optional[str] = typer.Option(
-        None, help="Output CSV path for full screening report"),
-    sleep_ms: int = typer.Option(
-        0, help="Sleep between symbols (ms) to be gentle on data API"),
-) -> None:
-    """Screen symbols and write whitelist/report CSVs."""
-    syms = [s.strip().upper() for s in symbols.split(",") if s.strip()]
-    hf = HalalFilter(sleep_between_calls=max(0, sleep_ms) / 1000.0)
-    if allowlist:
-        hf.load_allowlist_csv(allowlist)
-    if denylist:
-        hf.load_denylist_csv(denylist)
-
-    df = hf.screen_symbols(syms, use_allowlist=True)
-
-    if full_report:
-        df.to_csv(full_report, index=False)
-        print(f"Wrote full report: {full_report}")
-
-    if whitelist:
-        df[df["is_halal"]].loc[:, ["symbol"]].drop_duplicates().to_csv(
-            whitelist, index=False)
-        print(f"Wrote whitelist: {whitelist}")
-    else:
-        # Print quick table to stdout
-        cols = ["symbol", "is_halal", "reason", "sector", "industry",
-                "debt_to_assets", "debt_to_mktcap", "cashinv_to_mktcap"]
-        print(df[cols].sort_values(["is_halal", "symbol"],
-              ascending=[False, True]).to_string(index=False))
-
-
-if __name__ == "__main__":
-    app()
