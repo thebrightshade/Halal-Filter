@@ -1,105 +1,105 @@
 symbol,is_halal,reason,sector,industry,debt_to_assets,debt_to_mktcap,cashinv_to_mktcap
-A,True,ok,Healthcare,Diagnostics & Research,0.2861725476954246,0.08218883396606638,0.03222093225395346
-AA,True,ok,Basic Materials,Aluminum,0.2003697383390216,0.24861366125211648,0.10039827768094696
+A,True,ok,Healthcare,Diagnostics & Research,0.2861725476954246,0.08560749235543921,0.03356116735704387
+AA,True,ok,Basic Materials,Aluminum,0.2003697383390216,0.2358435242903967,0.0952412812783788
 AAA,True,data_sparse,,,0.0,0.0,0.0
-AACB,True,ok,Financial Services,Shell Companies,0.2533702622749022,0.00044682185869253843,0.0
-AACG,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Defensive,Education & Training Services,0.07705052356637111,1.0553160246851865,1.0948084481884979
-AAL,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Airlines,0.6076752504734312,3.840472175449922,0.08224322472463609
+AACB,True,ok,Financial Services,Shell Companies,0.2533702622749022,0.0004476894524230874,0.0
+AACG,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Defensive,Education & Training Services,0.07705052356637111,1.1764324855036572,1.2204573736450302
+AAL,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Airlines,0.6076752504734312,3.8019648653012124,0.08141859555993435
 AALG,True,data_sparse,,,0.0,0.0,0.0
 AAME,False,industry_excluded,Financial Services,Insurance - Life,0.0,0.0,0.0
 AAMI,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AAOI,False,debt/assets>0.30,Technology,Communication Equipment,0.34890097837055234,0.10512446040152923,0.0371389087077141
-AAON,True,ok,Industrials,Building Products & Equipment,0.14547230594077434,0.02392634508993769,1.95929453720741e-06
-AAP,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto Parts,0.341386255686065,1.17049733670794,0.5935849460130621
+AAOI,False,debt/assets>0.30,Technology,Communication Equipment,0.34890097837055234,0.08718837487156487,0.03080235639128092
+AAON,True,ok,Industrials,Building Products & Equipment,0.14547230594077434,0.026873770670012294,2.200655046560516e-06
+AAP,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto Parts,0.341386255686065,1.324476991602101,0.6716714159870355
 AAPB,True,data_sparse,,,0.0,0.0,0.0
 AAPD,True,data_sparse,,,0.0,0.0,0.0
-AAPG,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.6373636742162342,0.542435850992706,0.4020170487264037
-AAPL,True,ok,Technology,Consumer Electronics,0.2746262258483859,0.023846298669232185,0.008685576252878047
+AAPG,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.6373636742162342,0.5876537441796394,0.435529516487096
+AAPL,True,ok,Technology,Consumer Electronics,0.2746262258483859,0.023889144541687692,0.008701182074875635
 AAPU,True,data_sparse,,,0.0,0.0,0.0
-AARD,True,ok,Healthcare,Biotechnology,0.010050705097604088,0.002638481520065995,0.20877874117893197
+AARD,True,ok,Healthcare,Biotechnology,0.010050705097604088,0.002479404695952289,0.1961912514290052
 AAT,False,industry_excluded,Real Estate,REIT - Diversified,0.0,0.0,0.0
-AAUC,True,ok,Basic Materials,Gold,0.0966591759391569,0.04630237360354348,0.08165921683197203
+AAUC,True,ok,Basic Materials,Gold,0.0966591759391569,0.044790541594803814,0.07899293844909143
 AAUS,True,data_sparse,,,0.0,0.0,0.0
 AAVM,True,data_sparse,,,0.0,0.0,0.0
 AAXJ,True,data_sparse,,,0.0,0.0,0.0
 AB,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ABAT,True,ok,Industrials,Waste Management,0.09514552659801391,0.014898310012435412,0.013857333608169018
-ABBV,False,debt/assets>0.30,Healthcare,Drug Manufacturers - General,0.4967705181228313,0.16804050876215745,0.013824850625553404
+ABAT,True,ok,Industrials,Waste Management,0.09514552659801391,0.015116866910946132,0.01406061947431772
+ABBV,False,debt/assets>0.30,Healthcare,Drug Manufacturers - General,0.4967705181228313,0.17011730826913637,0.013995710873327615
 ABCB,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-ABCL,True,ok,Healthcare,Biotechnology,0.04804222988740608,0.061338204714395744,0.14669687981117918
+ABCL,True,ok,Healthcare,Biotechnology,0.04804222988740608,0.060321550325055866,0.1442654420562444
 ABCS,True,data_sparse,,,0.0,0.0,0.0
-ABEO,True,ok,Healthcare,Biotechnology,0.2115834794502942,0.08733216687157634,0.08850301204527111
+ABEO,True,ok,Healthcare,Biotechnology,0.2115834794502942,0.07934843882015745,0.08041224772311774
 ABEQ,True,data_sparse,,,0.0,0.0,0.0
 ABEV,False,industry_excluded,Consumer Defensive,Beverages - Brewers,0.0,0.0,0.0
-ABG,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto & Truck Dealerships,0.5107381251813873,1.124032909243369,0.014775619642293741
+ABG,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto & Truck Dealerships,0.5107381251813873,1.1021648983352343,0.014488160610752015
 ABI,True,data_sparse,,,0.0,0.0,0.0
 ABIG,True,data_sparse,,,0.0,0.0,0.0
 ABL,False,industry_excluded,Financial Services,Insurance - Life,0.0,0.0,0.0
 ABLLL,False,debt/assets>0.30|data_sparse,,,0.44146581535925394,0.0,0.0
-ABM,False,debt/mktcap>0.33,Industrials,Specialty Business Services,0.2849407517852939,0.5227138704036152,0.023249322520017584
-ABNB,True,ok,Consumer Cyclical,Travel Services,0.10945178682189036,0.030139343183871955,0.09018153950047825
+ABM,False,debt/mktcap>0.33,Industrials,Specialty Business Services,0.2849407517852939,0.5001869832701951,0.02224736926415216
+ABNB,True,ok,Consumer Cyclical,Travel Services,0.10945178682189036,0.029183917386351066,0.0873227589101629
 ABNY,True,data_sparse,,,0.0,0.0,0.0
-ABOS,True,ok,Healthcare,Biotechnology,0.12022159737564438,0.2550179671886297,0.316216243805837
-ABP,False,debt/assets>0.30,Healthcare,Biotechnology,0.7140098691267969,0.21087882513741538,0.1805903400365486
+ABOS,True,ok,Healthcare,Biotechnology,0.12022159737564438,0.22165112119943203,0.2748421444720926
+ABP,False,debt/assets>0.30,Healthcare,Biotechnology,0.7140098691267969,0.20872333660447875,0.17874444390708066
 ABR,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
-ABSI,True,ok,Healthcare,Biotechnology,0.047306280663645554,0.018771011638349586,0.07655712049988139
-ABT,True,ok,Healthcare,Medical Devices,0.1845014370992704,0.06899969430208554,0.03498446653383153
+ABSI,True,ok,Healthcare,Biotechnology,0.047306280663645554,0.018461598433098417,0.07529518616756903
+ABT,True,ok,Healthcare,Medical Devices,0.1845014370992704,0.06879070582358396,0.03487850446391155
 ABTC,False,industry_excluded,Financial Services,Capital Markets,0.0,0.0,0.0
 ABTS,False,industry_excluded,Financial Services,Capital Markets,0.0,0.0,0.0
-ABUS,True,ok,Healthcare,Biotechnology,0.009786875412848216,0.0015163418422265444,0.04273754781077607
-ABVC,False,debt/assets>0.30,Healthcare,Biotechnology,0.32237612479835626,0.041503628358776086,0.004241088408379166
-ABVE,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Packaged Foods,0.8166536663892402,0.8316727428918825,0.0067399205181934325
-ABVX,False,debt/assets>0.30,Healthcare,Biotechnology,0.47440407741633694,0.010914041982994647,0.01616698728268476
-ACA,False,debt/assets>0.30,Industrials,Engineering & Construction,0.3435866137727596,0.3209591243255382,0.035594555027635325
-ACAD,True,ok,Healthcare,Biotechnology,0.043775826011403014,0.011200148531066946,0.0688420861408819
-ACB,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.12265412248172203,0.4018615271955335,0.5299632224389735
-ACCO,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Business Equipment & Supplies,0.4141985280919045,2.8523862923400753,0.22899439248363987
-ACDC,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas Equipment & Services,0.4257220307218634,1.6587694961966601,0.019298631038212853
+ABUS,True,ok,Healthcare,Biotechnology,0.009786875412848216,0.0014229789817508892,0.04010614926843274
+ABVC,False,debt/assets>0.30,Healthcare,Biotechnology,0.32237612479835626,0.04740462221795173,0.004844087173637107
+ABVE,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Packaged Foods,0.8166536663892402,1.1088970224526613,0.008986560949688235
+ABVX,False,debt/assets>0.30,Healthcare,Biotechnology,0.47440407741633694,0.009828366313681202,0.014558774233270167
+ACA,False,debt/assets>0.30,Industrials,Engineering & Construction,0.3435866137727596,0.3106794106863572,0.03445452875928397
+ACAD,True,ok,Healthcare,Biotechnology,0.043775826011403014,0.01131978217282342,0.06957741830619221
+ACB,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.12265412248172203,0.3423264729866955,0.451450135115631
+ACCO,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Business Equipment & Supplies,0.4141985280919045,2.7018645508566084,0.21691025267440375
+ACDC,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas Equipment & Services,0.4257220307218634,1.6906688803334686,0.019669758217856565
 ACEL,False,industry_excluded,Consumer Cyclical,Gambling,0.0,0.0,0.0
 ACES,True,data_sparse,,,0.0,0.0,0.0
-ACET,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.07825846089574469,0.2105855412789337,0.6903232072968178
-ACFN,True,ok,Technology,Scientific & Technical Instruments,0.009248773121932804,0.0026085065528080173,0.06191210450848417
+ACET,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.07825846089574469,0.22549163089471558,0.7391870539281048
+ACFN,True,ok,Technology,Scientific & Technical Instruments,0.009248773121932804,0.0024779986312000258,0.05881453894052306
 ACGL,False,industry_excluded,Financial Services,Insurance - Diversified,0.0,0.0,0.0
 ACGLN,False,industry_excluded,Financial Services,Insurance - Diversified,0.0,0.0,0.0
 ACGLO,False,industry_excluded,Financial Services,Insurance - Diversified,0.0,0.0,0.0
 ACGR,True,data_sparse,,,0.0,0.0,0.0
-ACHC,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.3500617349752347,1.4596705486350492,0.05341236376634663
+ACHC,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.3500617349752347,1.5813098178861047,0.057863396161009516
 ACHR,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
-ACHV,True,ok,Healthcare,Biotechnology,0.25775891077576163,0.04048938262529636,0.05177257571479198
-ACI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Grocery Stores,0.53008517811158,1.4711600591908944,0.030454677029814043
+ACHV,True,ok,Healthcare,Biotechnology,0.25775891077576163,0.04031485958574171,0.051549418267247356
+ACI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Grocery Stores,0.53008517811158,1.4592957556692576,0.030209072529013597
 ACIC,False,industry_excluded,Financial Services,Insurance - Property & Casualty,0.0,0.0,0.0
-ACIU,True,ok,Healthcare,Biotechnology,0.023502358030946722,0.01926654392367673,0.1287808883050255
-ACIW,False,debt/assets>0.30,Technology,Software - Infrastructure,0.316145907189816,0.20188375886149543,0.045676370889234846
+ACIU,True,ok,Healthcare,Biotechnology,0.023502358030946722,0.017125816010904554,0.11447189530045379
+ACIW,False,debt/assets>0.30,Technology,Software - Infrastructure,0.316145907189816,0.19500281036328168,0.044119550482053106
 ACKY,True,data_sparse,,,0.0,0.0,0.0
 ACLC,True,data_sparse,,,0.0,0.0,0.0
 ACLO,True,data_sparse,,,0.0,0.0,0.0
-ACLS,True,ok,Technology,Semiconductor Equipment & Materials,0.0323803493673176,0.015305624366323108,0.04328498137869899
-ACLX,True,ok,Healthcare,Biotechnology,0.07602691870265012,0.013445515990728251,0.02627419904556529
-ACM,True,ok,Industrials,Engineering & Construction,0.26470803997524966,0.23805070478519394,0.11688676854259002
-ACMR,True,ok,Technology,Semiconductor Equipment & Materials,0.10173027087584825,0.08290270505465988,0.17892655938827062
-ACN,True,ok,Technology,Information Technology Services,0.1251300388163315,0.04928062888543856,0.06912968927091331
+ACLS,True,ok,Technology,Semiconductor Equipment & Materials,0.0323803493673176,0.0162370843402433,0.045919191304486205
+ACLX,True,ok,Healthcare,Biotechnology,0.07602691870265012,0.013015169100268044,0.025433248064852563
+ACM,True,ok,Industrials,Engineering & Construction,0.26470803997524966,0.24667207020927095,0.12111999921399048
+ACMR,True,ok,Technology,Semiconductor Equipment & Materials,0.10173027087584825,0.07493908533869455,0.1617389045932335
+ACN,True,ok,Technology,Information Technology Services,0.1251300388163315,0.0483787111217046,0.06786450057172305
 ACNB,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-ACNT,True,ok,Basic Materials,Chemicals,0.22594227504244482,0.2388332898294399,0.11563350263217968
-ACOG,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.017964485755920075,0.006419840815582351,0.3419326296293235
-ACON,True,ok,Healthcare,Health Information Services,,,0.1100526504100524
+ACNT,True,ok,Basic Materials,Chemicals,0.22594227504244482,0.22824234554351996,0.11050579206537481
+ACOG,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.017964485755920075,0.007894832829460437,0.42049344016584383
+ACON,True,ok,Healthcare,Health Information Services,,,0.10492597093481296
 ACP,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 ACR,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 ACRE,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
-ACRS,True,ok,Healthcare,Biotechnology,,,0.07766269583652212
-ACRV,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.018541314831017154,0.04873930016343346,0.5324283824163494
+ACRS,True,ok,Healthcare,Biotechnology,,,0.06977694700548863
+ACRV,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.018541314831017154,0.04565697119202509,0.49875700382004245
 ACT,False,industry_excluded,Financial Services,Insurance - Specialty,0.0,0.0,0.0
-ACTG,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Business Equipment & Supplies,0.16437068511913103,0.3483547617798201,0.7673785050652473
-ACTU,True,ok,Healthcare,Biotechnology,0.0,0.0,0.05058358680861187
+ACTG,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Business Equipment & Supplies,0.16437068511913103,0.33478251094117717,0.7374806690037691
+ACTU,True,ok,Healthcare,Biotechnology,0.0,0.0,0.04944007435668418
 ACTV,True,data_sparse,,,0.0,0.0,0.0
 ACV,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ACVA,True,ok,Consumer Cyclical,Auto & Truck Dealerships,0.12498107502014431,0.08316501517880862,0.15149893598406303
+ACVA,True,ok,Consumer Cyclical,Auto & Truck Dealerships,0.12498107502014431,0.08483039566939816,0.154532704111087
 ACVF,True,data_sparse,,,0.0,0.0,0.0
 ACVT,True,data_sparse,,,0.0,0.0,0.0
 ACWI,True,data_sparse,,,0.0,0.0,0.0
 ACWX,True,data_sparse,,,0.0,0.0,0.0
-ACXP,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.5537353633941753
-AD,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.3657766293425208,0.882457456430233,0.03324800463787377
-ADAG,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.20716775276364516,0.1971777046079106,0.9083418998156084
+ACXP,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.4367298434026988
+AD,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.3657766293425208,0.8984043924223877,0.03384883111167552
+ADAG,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.20716775276364516,0.22421921945724296,1.0329145081689624
 ADAM,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 ADAMG,True,data_sparse,,,0.0,0.0,0.0
 ADAMH,True,data_sparse,,,0.0,0.0,0.0
@@ -108,56 +108,56 @@ ADAML,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 ADAMM,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 ADAMN,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 ADAMZ,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
-ADAP,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.3017079804686071,5.6848620130355005,6.981803271921768
-ADBE,True,ok,Technology,Software - Application,0.20033079722130334,0.04122995543434989,0.0518301933160016
+ADAP,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.3017079804686071,5.772771989257886,7.089768981241823
+ADBE,True,ok,Technology,Software - Application,0.20033079722130334,0.040053545057080496,0.05035132736452342
 ADBG,True,data_sparse,,,0.0,0.0,0.0
 ADC,False,industry_excluded,Real Estate,REIT - Retail,0.0,0.0,0.0
-ADCT,False,debt/assets>0.30|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.38200509348406736,0.3017943384861775,0.6155404178361591
-ADEA,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Application,0.4421076887066116,0.3543260867434694,0.05753765069528668
-ADGM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Devices,0.3357207727873184,0.8293246401958835,1.0496450687410057
-ADI,True,ok,Technology,Semiconductors,0.1805401203416052,0.06290791925739596,0.018146509864777643
-ADIL,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.5043636798018539
+ADCT,False,debt/assets>0.30|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.38200509348406736,0.23472892615363702,0.4787536506072006
+ADEA,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Application,0.4421076887066116,0.33836788528110706,0.05494625972572709
+ADGM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Devices,0.3357207727873184,0.7828283498244863,0.9907964592368199
+ADI,True,ok,Technology,Semiconductors,0.1805401203416052,0.0633515991746212,0.018274494418865164
+ADIL,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.5289335030609112
 ADIV,True,data_sparse,,,0.0,0.0,0.0
-ADM,False,debt/mktcap>0.33,Consumer Defensive,Farm Products,0.2165906403108633,0.4068632985482367,0.021545629694312066
-ADMA,True,ok,Healthcare,Biotechnology,0.1680370305190739,0.017335681400572765,0.02177558002612011
-ADN,False,debt/mktcap>0.33,Industrials,Electrical Equipment & Parts,0.10390907955538903,0.45136071610297346,0.20669282792696259
-ADNT,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto Parts,0.2677015858834041,1.5930354391329018,0.6366824992446057
-ADP,True,ok,Technology,Software - Application,0.16986169951638863,0.08553589792014123,0.03158791438403698
-ADPT,True,ok,Healthcare,Biotechnology,0.1657229835958589,0.039695595784550036,0.02128064427708322
+ADM,False,debt/mktcap>0.33,Consumer Defensive,Farm Products,0.2165906403108633,0.40008337337029776,0.021186595695029637
+ADMA,True,ok,Healthcare,Biotechnology,0.1680370305190739,0.01739703086293296,0.021852641901930755
+ADN,False,debt/mktcap>0.33,Industrials,Electrical Equipment & Parts,0.10390907955538903,0.4680777630554329,0.21434811024533645
+ADNT,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto Parts,0.2677015858834041,1.5684751674445085,0.6268665875727322
+ADP,True,ok,Technology,Software - Application,0.16986169951638863,0.08409904876814146,0.031057294268976986
+ADPT,True,ok,Healthcare,Biotechnology,0.1657229835958589,0.037921635604576724,0.020329631581452744
 ADPV,True,data_sparse,,,0.0,0.0,0.0
-ADSE,True,ok,Industrials,Electrical Equipment & Parts,0.11576809199201267,0.022479547050018197,0.030561915569459107
-ADSK,True,ok,Technology,Software - Application,0.23622265300470785,0.039166997749013714,0.024473633997918298
-ADT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Security & Protection Services,0.4801628339045454,1.1488930387560508,0.014342318678543351
-ADTN,True,ok,Technology,Communication Equipment,0.1839657714276446,0.3153414363292503,0.11124111410706186
-ADTX,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.215290724135689,4.016272586910333,0.48345252981393116
-ADUR,True,ok,Industrials,Pollution & Treatment Controls,0.013319885121415694,0.00039151646689977623,0.01593485509556861
-ADUS,True,ok,Healthcare,Medical Care Facilities,0.1933451976945196,0.13054977990319244,0.04727784714748749
-ADV,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Advertising Agencies,0.5594403635969157,6.193688814962543,0.7314237245527576
-ADVB,True,ok,Healthcare,Diagnostics & Research,0.02841546667706968,0.015291767553687998,0.31466401216896284
+ADSE,True,ok,Industrials,Electrical Equipment & Parts,0.11576809199201267,0.022425465106751228,0.030488388830673858
+ADSK,True,ok,Technology,Software - Application,0.23622265300470785,0.040364480297559756,0.025221885109729603
+ADT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Security & Protection Services,0.4801628339045454,1.1517090175705484,0.01437747222564229
+ADTN,True,ok,Technology,Communication Equipment,0.1839657714276446,0.3236897992608438,0.11418611621110161
+ADTX,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.215290724135689,5.522374646696909,0.6647472091977159
+ADUR,True,ok,Industrials,Pollution & Treatment Controls,0.013319885121415694,0.00042615417680965225,0.01734462182294743
+ADUS,True,ok,Healthcare,Medical Care Facilities,0.1933451976945196,0.12895479865794554,0.046700233921545556
+ADV,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Advertising Agencies,0.5594403635969157,5.93159516498396,0.7004726194236374
+ADVB,True,ok,Healthcare,Diagnostics & Research,0.02841546667706968,0.014696980757405696,0.30242487767739945
 ADVE,True,data_sparse,,,0.0,0.0,0.0
-ADVM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.5099226538998337,0.9750663039631842,0.6448909161765994
+ADVM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.5099226538998337,0.9527024490959014,0.6300998739715895
 ADX,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ADXN,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.003932647350426374,0.005647539541102649,0.449411760989791
-AEBI,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Farm & Heavy Construction Machinery,0.42443875881792886,0.47317292155496754,0.06677196707207639
-AEE,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Electric,0.4197946096237499,0.6931090502260879,0.0002591477059920209
+ADXN,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.003932647350426374,0.004208159591397794,0.33487085813779305
+AEBI,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Farm & Heavy Construction Machinery,0.42443875881792886,0.44364355118496945,0.0626049193476947
+AEE,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Electric,0.4197946096237499,0.7115644347413579,0.00026604802068099057
 AEFC,True,data_sparse,,,0.0,0.0,0.0
 AEG,False,industry_excluded,Financial Services,Insurance - Diversified,0.0,0.0,0.0
-AEHL,False,debt/mktcap>0.33,Industrials,Building Products & Equipment,0.18099773719938958,0.4105022746965319,0.06247941293898371
-AEHR,True,ok,Technology,Semiconductor Equipment & Materials,0.07292536429013925,0.014588549761036993,0.03277237554351514
+AEHL,False,debt/mktcap>0.33,Industrials,Building Products & Equipment,0.18099773719938958,0.4346494767328303,0.06615467395541115
+AEHR,True,ok,Technology,Semiconductor Equipment & Materials,0.07292536429013925,0.014743493647795626,0.03312044847250414
 AEI,False,industry_excluded,Real Estate,Real Estate - Development,0.0,0.0,0.0
-AEIS,True,ok,Industrials,Electrical Equipment & Parts,0.29696307607695144,0.08111713509860896,0.08720207654740315
-AEM,True,ok,Basic Materials,Gold,0.04275790276979191,0.0151271130712987,0.01092998224102064
-AEMD,False,cashinv/mktcap>0.33,Healthcare,Medical Devices,0.08828697577862946,0.2306636334819708,1.9529648295926596
-AENT,True,ok,Communication Services,Entertainment,0.25173851417941023,0.12159480798059848,0.0016527319806897204
-AEO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Apparel Retail,0.37755545548877184,0.36151348955223905,0.07722575813198847
-AEP,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Electric,0.4439628242690002,0.72737364862262,0.0032249799685668185
-AER,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Rental & Leasing Services,0.634784905725452,1.816803190582639,0.0484434774688858
-AERT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Consulting Services,0.44829663846559387,0.5765285244624837,0.08923810503524136
-AES,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Diversified,0.6121166097118508,2.92734884842259,0.15374180319098582
-AESI,True,ok,Energy,Oil & Gas Equipment & Services,0.2687220046921606,0.32047501593850675,0.043349476118157475
+AEIS,True,ok,Industrials,Electrical Equipment & Parts,0.29696307607695144,0.08274272045374441,0.08894960397672542
+AEM,True,ok,Basic Materials,Gold,0.04275790276979191,0.015177455652706034,0.010966356896128713
+AEMD,False,cashinv/mktcap>0.33,Healthcare,Medical Devices,0.08828697577862946,0.2510163032186503,2.1252852235101374
+AENT,True,ok,Communication Services,Entertainment,0.25173851417941023,0.11366837359532407,0.001544994883860126
+AEO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Apparel Retail,0.37755545548877184,0.33512632761198874,0.0715889875973362
+AEP,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Electric,0.4439628242690002,0.7491062944231588,0.0033213367000808278
+AER,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Rental & Leasing Services,0.634784905725452,1.822662325259957,0.048599706200869036
+AERT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Consulting Services,0.44829663846559387,0.6356853808896461,0.0983947131533282
+AES,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Diversified,0.6121166097118508,2.9463988733314417,0.154742293850614
+AESI,True,ok,Energy,Oil & Gas Equipment & Services,0.2687220046921606,0.3160283745530506,0.04274799530075164
 AETH,True,data_sparse,,,0.0,0.0,0.0
-AEVA,True,ok,Technology,Software - Infrastructure,0.02548664646177003,0.0042562363616172605,0.03268209798928454
-AEYE,True,ok,Technology,Software - Application,0.24312974534704024,0.04445111498312865,0.03470958280636451
+AEVA,True,ok,Technology,Software - Infrastructure,0.02548664646177003,0.003907974566489486,0.030007921757688887
+AEYE,True,ok,Technology,Software - Application,0.24312974534704024,0.046657655151867664,0.036432556206052805
 AFB,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 AFBI,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 AFCG,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
@@ -167,35 +167,35 @@ AFGC,True,data_sparse,,,0.0,0.0,0.0
 AFGD,True,data_sparse,,,0.0,0.0,0.0
 AFGE,True,data_sparse,,,0.0,0.0,0.0
 AFIX,True,data_sparse,,,0.0,0.0,0.0
-AFJK,True,ok,Financial Services,Shell Companies,0.0030847416741541984,0.004649417959029256,0.0005759805963473748
+AFJK,True,ok,Financial Services,Shell Companies,0.0030847416741541984,0.001253634973122322,0.00015530318542746798
 AFK,True,data_sparse,,,0.0,0.0,0.0
 AFL,False,industry_excluded,Financial Services,Insurance - Life,0.0,0.0,0.0
 AFLG,True,data_sparse,,,0.0,0.0,0.0
 AFMC,True,data_sparse,,,0.0,0.0,0.0
-AFRI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Farm Products,0.6744609432781475,0.592653548566187,0.04367503496121608
-AFRM,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.7040211551324083,0.3499424696197058,0.060354368935676084
+AFRI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Farm Products,0.6744609432781475,0.5608657591038411,0.04133246429836163
+AFRM,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.7040211551324083,0.353793126570796,0.06101848944246506
 AFSC,True,data_sparse,,,0.0,0.0,0.0
 AFSM,True,data_sparse,,,0.0,0.0,0.0
-AFYA,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Defensive,Education & Training Services,0.3594181983906521,2.375674239203983,0.6819842171044801
-AG,True,ok,Basic Materials,Silver,0.11971837388649693,0.03209541216116065,0.02737799580090652
-AGAE,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,0.27826309094979407,2.316760081793033,4.377097619382154
-AGCO,False,debt/mktcap>0.33,Industrials,Farm & Heavy Construction Machinery,0.248065340553679,0.3534110209703064,0.07791338070382836
+AFYA,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Defensive,Education & Training Services,0.3594181983906521,2.4017984667497365,0.6894836926538803
+AG,True,ok,Basic Materials,Silver,0.11971837388649693,0.03032352153946715,0.025866539466998014
+AGAE,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,0.27826309094979407,2.1721532591534176,4.10388927808839
+AGCO,False,debt/mktcap>0.33,Industrials,Farm & Heavy Construction Machinery,0.248065340553679,0.340784569204026,0.07512973932019594
 AGD,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 AGEM,True,data_sparse,,,0.0,0.0,0.0
-AGEN,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Biotechnology,0.4192760009015738,0.709824187565234,0.3025525526781424
+AGEN,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Biotechnology,0.4192760009015738,0.7360446260145438,0.31372864490513447
 AGG,True,data_sparse,,,0.0,0.0,0.0
 AGGA,True,data_sparse,,,0.0,0.0,0.0
 AGGH,True,data_sparse,,,0.0,0.0,0.0
 AGGS,True,data_sparse,,,0.0,0.0,0.0
 AGGY,True,data_sparse,,,0.0,0.0,0.0
-AGH,True,ok,Consumer Cyclical,Leisure,0.1857144803241356,0.013093073528126439,0.006183743577796166
-AGI,True,ok,Basic Materials,Gold,0.05370963812522254,0.018882301542315176,0.021557184454450543
-AGIO,True,ok,Healthcare,Biotechnology,0.034264089865373895,0.03524212772612871,0.04715214628929136
+AGH,True,ok,Consumer Cyclical,Leisure,0.1857144803241356,0.015565856475517056,0.007351617235372631
+AGI,True,ok,Basic Materials,Gold,0.05370963812522254,0.017700011548775697,0.02020741025387093
+AGIO,True,ok,Healthcare,Biotechnology,0.034264089865373895,0.035836603201624066,0.04794752376490191
 AGIQ,True,data_sparse,,,0.0,0.0,0.0
 AGIX,True,data_sparse,,,0.0,0.0,0.0
-AGL,False,cashinv/mktcap>0.33,Healthcare,Medical Care Facilities,0.02393506741415573,0.15354011462079253,0.6963595237738572
-AGM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Financial Services,Credit Services,0.9353884542768142,15.284315408621836,0.5257123304055307
-AGMH,True,ok,Technology,Computer Hardware,0.0,0.0,0.21066974176251468
+AGL,False,cashinv/mktcap>0.33,Healthcare,Medical Care Facilities,0.02393506741415573,0.13923248789027748,0.6314693016908373
+AGM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Financial Services,Credit Services,0.9353884542768142,14.753102857536444,0.5074409861741602
+AGMH,True,ok,Technology,Computer Hardware,0.0,0.0,0.21142213299265708
 AGMI,True,data_sparse,,,0.0,0.0,0.0
 AGNC,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 AGNCL,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
@@ -210,207 +210,207 @@ AGQ,True,data_sparse,,,0.0,0.0,0.0
 AGQI,True,data_sparse,,,0.0,0.0,0.0
 AGRH,True,data_sparse,,,0.0,0.0,0.0
 AGRI,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AGRO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Farm Products,0.36007265750807094,1.359972535800985,0.256142675062584
+AGRO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Defensive,Farm Products,0.36007265750807094,1.5716932964742052,0.29601901122196334
 AGRW,True,data_sparse,,,0.0,0.0,0.0
-AGX,True,ok,Industrials,Engineering & Construction,0.00324074683070506,0.0006254772948431087,0.03352719862759945
-AGYS,True,ok,Technology,Software - Application,0.10811520132605842,0.013288801303283852,0.020668356032391207
+AGX,True,ok,Industrials,Engineering & Construction,0.00324074683070506,0.0006106020372097146,0.03272984639527483
+AGYS,True,ok,Technology,Software - Application,0.10811520132605842,0.013418707168906755,0.020870401395258257
 AGZ,True,data_sparse,,,0.0,0.0,0.0
 AGZD,True,data_sparse,,,0.0,0.0,0.0
-AHCO,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Devices,0.4747851935848585,1.6699385550584533,0.08602903326141983
-AHG,True,ok,Healthcare,Medical Distribution,0.0003802546436534536,0.00010707119499761283,0.23085191777846922
+AHCO,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Devices,0.4747851935848585,1.5125790281788405,0.07792245477030064
+AHG,True,ok,Healthcare,Medical Distribution,0.0003802546436534536,0.00011024367176785344,0.23769196795754882
 AHH,False,industry_excluded,Real Estate,REIT - Diversified,0.0,0.0,0.0
 AHL,False,industry_excluded,Financial Services,Insurance - Property & Casualty,0.0,0.0,0.0
 AHLT,True,data_sparse,,,0.0,0.0,0.0
 AHR,False,industry_excluded,Real Estate,REIT - Healthcare Facilities,0.0,0.0,0.0
 AHT,False,industry_excluded,Real Estate,REIT - Hotel & Motel,0.0,0.0,0.0
 AHYB,True,data_sparse,,,0.0,0.0,0.0
-AI,True,ok,Technology,Software - Infrastructure,0.004674026837394554,0.0023066487131743157,0.07906489451509993
+AI,True,ok,Technology,Software - Infrastructure,0.004674026837394554,0.002230956150294837,0.07647038393121144
 AIA,True,data_sparse,,,0.0,0.0,0.0
 AIBD,True,data_sparse,,,0.0,0.0,0.0
 AIBU,True,data_sparse,,,0.0,0.0,0.0
 AIEQ,True,data_sparse,,,0.0,0.0,0.0
 AIFD,True,data_sparse,,,0.0,0.0,0.0
-AIFF,True,ok,Technology,Software - Application,0.1508367746142143,0.03157919711032868,0.08236073021569872
+AIFF,True,ok,Technology,Software - Application,0.1508367746142143,0.03255338606999421,0.0849014824015699
 AIFU,False,industry_excluded,Financial Services,Insurance Brokers,0.0,0.0,0.0
 AIG,False,industry_excluded,Financial Services,Insurance - Diversified,0.0,0.0,0.0
-AIHS,True,ok,Industrials,Rental & Leasing Services,0.06396488617416381,0.06253054309496686,0.1404782211457664
+AIHS,True,ok,Industrials,Rental & Leasing Services,0.06396488617416381,0.06019576507826555,0.13523301702114657
 AII,False,industry_excluded,Financial Services,Insurance - Property & Casualty,0.0,0.0,0.0
-AIIO,False,debt/assets>0.30,Consumer Cyclical,Auto Manufacturers,0.4978415531170867,0.10040273030488717,0.0007198374308542023
-AIMD,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Scientific & Technical Instruments,0.4163746405776032,1.0432788444810372,0.33845000299818956
-AIN,True,ok,Consumer Cyclical,Textile Manufacturing,0.23485227112821283,0.26485893581704595,0.07885778072778024
+AIIO,False,debt/assets>0.30,Consumer Cyclical,Auto Manufacturers,0.4978415531170867,0.11386455387392799,0.000816351982431882
+AIMD,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Scientific & Technical Instruments,0.4163746405776032,1.0984302064779201,0.35634165174765153
+AIN,True,ok,Consumer Cyclical,Textile Manufacturing,0.23485227112821283,0.2519105062496014,0.07500257978298759
 AINP,True,data_sparse,,,0.0,0.0,0.0
-AIOT,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.31542484047947905,0.40780202917900543,0.06306420519584618
-AIP,True,ok,Technology,Semiconductors,0.056446977905497714,0.007814515843390284,0.01784907941928771
+AIOT,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.31542484047947905,0.4062573260575505,0.06282532586801592
+AIP,True,ok,Technology,Semiconductors,0.056446977905497714,0.008418952693782423,0.019229669280874422
 AIPO,True,data_sparse,,,0.0,0.0,0.0
 AIQ,True,data_sparse,,,0.0,0.0,0.0
 AIR,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
 AIRE,False,industry_excluded,Real Estate,Real Estate Services,0.0,0.0,0.0
-AIRG,True,ok,Technology,Communication Equipment,0.08048634477633508,0.08254496274470349,0.18016353756281783
-AIRJ,True,ok,Industrials,Building Products & Equipment,0.00041700180061155255,0.0009077464325935092,0.16492774888013473
+AIRG,True,ok,Technology,Communication Equipment,0.08048634477633508,0.08050681269683295,0.17571504899975593
+AIRJ,True,ok,Industrials,Building Products & Equipment,0.00041700180061155255,0.0007542106986022752,0.13703195984631233
 AIRL,True,data_sparse,,,0.0,0.0,0.0
 AIRO,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
 AIRR,True,data_sparse,,,0.0,0.0,0.0
-AIRS,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.5002619097506619,0.5534713547082011,0.043386068042055304
-AIRT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Conglomerates,0.7429881803220201,2.449931197378138,0.11255850879330144
+AIRS,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.5002619097506619,0.6471357534289804,0.05072832693485816
+AIRT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Conglomerates,0.7429881803220201,2.3874891455482654,0.10968969996818581
 AIRTP,False,debt/assets>0.30|data_sparse,Industrials,Conglomerates,0.7429881803220201,0.0,0.0
 AIS,True,data_sparse,,,0.0,0.0,0.0
-AISP,True,ok,Technology,Software - Infrastructure,0.06884597241763496,0.007442961007819737,0.09002846721997383
-AIT,True,ok,Industrials,Industrial Distribution,0.18022108967786307,0.0587795532854105,0.03989337366496468
+AISP,True,ok,Technology,Software - Infrastructure,0.06884597241763496,0.009023982398462114,0.1091521644007037
+AIT,True,ok,Industrials,Industrial Distribution,0.18022108967786307,0.057919444367375825,0.0393096222660196
 AIV,False,industry_excluded,Real Estate,REIT - Residential,0.0,0.0,0.0
 AIVC,True,data_sparse,,,0.0,0.0,0.0
 AIVI,True,data_sparse,,,0.0,0.0,0.0
 AIVL,True,data_sparse,,,0.0,0.0,0.0
-AIXI,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Application,0.5362583154630219,5.126673024506697,0.0946480913063149
+AIXI,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Application,0.5362583154630219,5.881643150907665,0.10858626936361644
 AIYY,True,data_sparse,,,0.0,0.0,0.0
 AIZ,False,industry_excluded,Financial Services,Insurance - Property & Casualty,0.0,0.0,0.0
 AIZN,True,data_sparse,,,0.0,0.0,0.0
 AJG,False,industry_excluded,Financial Services,Insurance Brokers,0.0,0.0,0.0
 AKAF,True,data_sparse,,,0.0,0.0,0.0
-AKAM,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.4469766708442696,0.38585347014207416,0.04310163271019705
-AKBA,True,ok,Healthcare,Drug Manufacturers - Specialty & Generic,0.21588797752299815,0.11657509446340424,0.12692590574762339
+AKAM,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.4469766708442696,0.37511535198154305,0.04190213481587076
+AKBA,True,ok,Healthcare,Drug Manufacturers - Specialty & Generic,0.21588797752299815,0.108147978696677,0.11775053851798145
 AKR,False,industry_excluded,Real Estate,REIT - Retail,0.0,0.0,0.0
-AKRO,True,ok,Healthcare,Biotechnology,0.04414289623507361,0.008118155538457836,0.07576336517249958
-AKTX,True,ok,Healthcare,Biotechnology,0.06447529765436494,0.26907083558393236,0.2145138348719755
-AL,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Rental & Leasing Services,0.6261246086176125,2.828494470008234,0.06613643581527998
-ALAB,True,ok,Technology,Semiconductors,0.0012195260728225864,4.722328327084964e-05,0.002921197050917076
+AKRO,True,ok,Healthcare,Biotechnology,0.04414289623507361,0.008103300611696502,0.0756247303267519
+AKTX,True,ok,Healthcare,Biotechnology,0.06447529765436494,0.23424501391747943,0.1867493224452543
+AL,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Rental & Leasing Services,0.6261246086176125,2.8209930832341383,0.06596103685651547
+ALAB,True,ok,Technology,Semiconductors,0.0012195260728225864,5.1150886448096875e-05,0.0031641556515027637
 ALAI,True,data_sparse,,,0.0,0.0,0.0
-ALAR,True,ok,Technology,Software - Infrastructure,0.04567521760363104,0.026077801925475295,0.24734549109314022
-ALB,True,ok,Basic Materials,Specialty Chemicals,0.2176854550026915,0.24538772439946838,0.08091387721663847
+ALAR,True,ok,Technology,Software - Infrastructure,0.04567521760363104,0.027962530354707103,0.2652219624398351
+ALB,True,ok,Basic Materials,Specialty Chemicals,0.2176854550026915,0.23143052994858143,0.0763116473339025
 ALBT,False,industry_excluded,Real Estate,Real Estate Services,0.0,0.0,0.0
-ALC,True,ok,Healthcare,Medical Instruments & Supplies,0.16924242923517976,0.1290232451483366,0.04210337984201949
-ALCO,False,debt/assets>0.30,Consumer Defensive,Farm Products,0.4244939883985769,0.3020521037346959,0.13462357079963627
-ALDF,True,ok,Financial Services,Shell Companies,0.0,0.0,0.0032031611374410706
-ALDX,True,ok,Healthcare,Biotechnology,0.1462908578298058,0.05411915134362752,0.1928353503084265
-ALE,False,debt/mktcap>0.33,Utilities,Utilities - Diversified,0.2664080659727877,0.45809189875737377,0.00835023578928635
-ALEC,True,ok,Healthcare,Biotechnology,0.09079378094951346,0.3192960927449173,0.24797093719348798
+ALC,True,ok,Healthcare,Medical Instruments & Supplies,0.1689788117441592,0.13197743957980493,0.04313459218715933
+ALCO,False,debt/assets>0.30,Consumer Defensive,Farm Products,0.4244939883985769,0.2964422454558848,0.1321232764999588
+ALDF,True,ok,Financial Services,Shell Companies,0.0,0.0,0.003204657350183163
+ALDX,True,ok,Healthcare,Biotechnology,0.1462908578298058,0.05602643240746238,0.1996313033666322
+ALE,False,debt/mktcap>0.33,Utilities,Utilities - Diversified,0.2664080659727877,0.45613538819699234,0.008314571931122235
+ALEC,True,ok,Healthcare,Biotechnology,0.09079378094951346,0.26143707368501706,0.20303660975453205
 ALEX,False,industry_excluded,Real Estate,REIT - Retail,0.0,0.0,0.0
-ALG,True,ok,Industrials,Farm & Heavy Construction Machinery,0.15647334064686863,0.11361557088300464,0.09876789375743118
-ALGM,True,ok,Technology,Semiconductors,0.25932520315476637,0.06812328508047176,0.022431133113031146
-ALGN,True,ok,Healthcare,Medical Instruments & Supplies,0.019193029318057477,0.010466950627734338,0.09160453138437179
-ALGS,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.11948240933603446,0.13623583102420472,0.6018289003465674
-ALGT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Airlines,0.48525537980605676,1.4175192612206022,0.18852601943091093
-ALHC,False,debt/assets>0.30,Healthcare,Healthcare Plans,0.4210185112964045,0.08417187873732561,0.1106548724222279
+ALG,True,ok,Industrials,Farm & Heavy Construction Machinery,0.15647334064686863,0.10561411018043539,0.0918120917099335
+ALGM,True,ok,Technology,Semiconductors,0.25932520315476637,0.07342538909847053,0.024176970837479946
+ALGN,True,ok,Healthcare,Medical Instruments & Supplies,0.019193029318057477,0.009946862427085945,0.08705282978632482
+ALGS,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.11948240933603446,0.10236900435801151,0.45222042438607185
+ALGT,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Airlines,0.48525537980605676,1.36435814173477,0.1814557421378003
+ALHC,False,debt/assets>0.30,Healthcare,Healthcare Plans,0.4210185112964045,0.08499793973233694,0.11174083694371865
 ALIL,True,data_sparse,,,0.0,0.0,0.0
-ALIT,False,debt/mktcap>0.33,Technology,Software - Application,0.26315147076772855,1.923351806340008,0.30598778737227394
-ALK,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Airlines,0.32340145690004046,1.1101203990425497,0.20854913174567527
-ALKS,True,ok,Healthcare,Drug Manufacturers - Specialty & Generic,0.03674801161917855,0.015497298345708241,0.05973121374883597
-ALKT,True,ok,Technology,Software - Application,0.04219750867299218,0.008158152883352613,0.041718791888156796
+ALIT,False,debt/mktcap>0.33,Technology,Software - Application,0.26315147076772855,1.8595439841883858,0.2958365429390614
+ALK,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Airlines,0.32340145690004046,1.072324472181607,0.201448723774458
+ALKS,True,ok,Healthcare,Drug Manufacturers - Specialty & Generic,0.03674801161917855,0.01605193874594412,0.06186896341082167
+ALKT,True,ok,Technology,Software - Application,0.04219750867299218,0.00788365246113629,0.04031506408954906
 ALL,False,industry_excluded,Financial Services,Insurance - Property & Casualty,0.0,0.0,0.0
-ALLE,False,debt/assets>0.30,Industrials,Security & Protection Services,0.44554124515352733,0.14609859494899677,0.03681143892738413
-ALLO,True,ok,Healthcare,Biotechnology,0.1653988445627016,0.28240865005472343,0.2340585067633676
-ALLR,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.059602649006622516,0.08153428934401859,1.179710573153122
-ALLT,False,debt/assets>0.30,Technology,Software - Infrastructure,0.33186528311885477,0.10041688162035699,0.03497754311673649
+ALLE,False,debt/assets>0.30,Industrials,Security & Protection Services,0.44554124515352733,0.14450888818875363,0.036410891657661454
+ALLO,True,ok,Healthcare,Biotechnology,0.1653988445627016,0.26744659424894096,0.22165804934347966
+ALLR,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.059602649006622516,0.07494008334688682,1.0842997392701779
+ALLT,False,debt/assets>0.30,Technology,Software - Infrastructure,0.33186528311885477,0.09705607386910349,0.03380689535184214
 ALLW,True,data_sparse,,,0.0,0.0,0.0
-ALLY,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Financial Services,Credit Services,0.10024708605266999,1.4726947549810754,0.7881532119112489
-ALM,False,debt/assets>0.30,Basic Materials,Other Industrial Metals & Mining,0.6164330658594338,0.09386479842364849,0.0046510066424748945
-ALMS,True,ok,Healthcare,Biotechnology,0.09009595533033032,0.026464984694536377,0.1460355118587974
-ALMU,True,ok,Technology,Semiconductors,0.04849015768319077,0.003264800306944642,0.0125873491111532
-ALNT,False,debt/assets>0.30,Technology,Electronic Components,0.4326818703639057,0.2697409043838181,0.039088773451870916
-ALNY,False,debt/assets>0.30,Healthcare,Biotechnology,0.30567292368860915,0.021413792756454254,0.01596768708106071
-ALOT,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Computer Hardware,0.33324633400872283,0.8822174653741899,0.09182378449967352
+ALLY,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Financial Services,Credit Services,0.10024708605266999,1.38144571059777,0.7393187693553247
+ALM,False,debt/assets>0.30,Basic Materials,Other Industrial Metals & Mining,0.6164330658594338,0.09113859185418435,0.004515922936162455
+ALMS,True,ok,Healthcare,Biotechnology,0.09009595533033032,0.025612761761258773,0.14133289012236036
+ALMU,True,ok,Technology,Semiconductors,0.04849015768319077,0.0029032438605460166,0.011193378029820348
+ALNT,False,debt/assets>0.30,Technology,Electronic Components,0.4326818703639057,0.26540750614135483,0.038460810768334575
+ALNY,False,debt/assets>0.30,Healthcare,Biotechnology,0.30567292368860915,0.024676360040881366,0.018400495414976063
+ALOT,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Computer Hardware,0.33324633400872283,0.7812994663507089,0.08131994280737607
 ALRG,True,data_sparse,,,0.0,0.0,0.0
-ALRM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Software - Application,0.5184510118692498,0.4064191569325176,0.4694909689467425
+ALRM,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Software - Application,0.5184510118692498,0.4059516395318454,0.46895089795427813
 ALRS,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-ALSN,False,debt/assets>0.30,Consumer Cyclical,Auto Parts,0.45089955022488754,0.3109374162893236,0.1009318878312393
-ALT,True,ok,Healthcare,Biotechnology,0.012066960504213745,0.0030745084150614827,0.06753676248337913
-ALTG,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Rental & Leasing Services,0.8098486895433666,7.574779484259945,0.0846626449988183
+ALSN,False,debt/assets>0.30,Consumer Cyclical,Auto Parts,0.45089955022488754,0.2882026226313626,0.09355205663969002
+ALT,True,ok,Healthcare,Biotechnology,0.012066960504213745,0.003057006347159546,0.06715230004474325
+ALTG,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Rental & Leasing Services,0.8098486895433666,6.824250901563168,0.0762740529493256
 ALTI,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 ALTL,True,data_sparse,,,0.0,0.0,0.0
-ALTO,False,debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.28564311300873363,0.5902560483606665,0.18257745647699863
-ALTS,True,ok,Technology,Software - Application,0.1585229753990975,0.07313886501820457,0.04016816913342931
+ALTO,False,debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.28564311300873363,0.592617070302461,0.18330776560642892
+ALTS,True,ok,Technology,Software - Application,0.1585229753990975,0.07066795391342037,0.038811134468672945
 ALTY,True,data_sparse,,,0.0,0.0,0.0
-ALUR,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Devices,1.155730960290129,1.8200520595609726,0.7380898300236848
-ALV,True,ok,Consumer Cyclical,Auto Parts,0.26499231163505893,0.2292622018684786,0.036584393915182756
-ALVO,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.9744850171933847,0.6983075133066445,0.030172637018485507
+ALUR,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Devices,1.155730960290129,1.8527477051208407,0.7513489691494188
+ALV,True,ok,Consumer Cyclical,Auto Parts,0.26499231163505893,0.22202155761909725,0.03542897196049424
+ALVO,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.9744850171933847,0.6857705266707874,0.029630935919956428
 ALX,False,industry_excluded,Real Estate,REIT - Retail,0.0,0.0,0.0
-ALXO,True,ok,Healthcare,Biotechnology,0.06702080866181695,0.12864081982868145,0.22817379664079634
-ALZN,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.46163648583890143
-AM,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas Midstream,0.5409743709721425,0.3527466632523126,0.0
+ALXO,True,ok,Healthcare,Biotechnology,0.06702080866181695,0.12426527556517315,0.22041277219844474
+ALZN,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.4786551997221392
+AM,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas Midstream,0.5409743709721425,0.36256154017860626,0.0
 AMAL,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-AMAT,True,ok,Technology,Semiconductor Equipment & Materials,0.19198465517742452,0.030941427290243084,0.03757374049687103
+AMAT,True,ok,Technology,Semiconductor Equipment & Materials,0.19198465517742452,0.03199067469288593,0.03884789469971707
 AMAX,True,data_sparse,,,0.0,0.0,0.0
-AMBA,True,ok,Technology,Semiconductor Equipment & Materials,0.007641864353641969,0.0016644246305963276,0.045719357820722145
+AMBA,True,ok,Technology,Semiconductor Equipment & Materials,0.007641864353641969,0.0016245785454516838,0.0446248430010092
 AMBC,False,industry_excluded,Financial Services,Insurance - Specialty,0.0,0.0,0.0
-AMBP,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Packaging & Containers,0.7143903332112779,1.6696580785112085,0.25759460872981743
-AMBQ,True,ok,Technology,Semiconductors,0.009263698958553099,0.0018189268010266595,0.11482399094555562
-AMBR,True,ok,Technology,Software - Infrastructure,0.06113272980220578,0.018182297315259027,0.1177711533556636
-AMC,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,1.003564716580782,7.108406775344008,0.5430349048617256
-AMCR,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Packaging & Containers,0.40489936869368154,0.7833235608677358,0.04316421807286897
-AMCX,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,0.5577981950020414,6.211347524758589,2.0029794130187386
-AMD,True,ok,Technology,Semiconductors,0.031953312339294486,0.006233370110006943,0.010671687435170114
+AMBP,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Packaging & Containers,0.7143903332112779,1.5884094934820392,0.2450595886920009
+AMBQ,True,ok,Technology,Semiconductors,0.009263698958553099,0.0018114311713447661,0.11435081186312131
+AMBR,True,ok,Technology,Software - Infrastructure,0.06113272980220578,0.020746467876976784,0.13437990852109072
+AMC,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,1.003564716580782,7.61136041700097,0.5814572112348481
+AMCR,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Packaging & Containers,0.40489936869368154,0.7899861562863043,0.043531353361458795
+AMCX,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,0.5577981950020414,5.584628016444294,1.800880549948032
+AMD,True,ok,Technology,Semiconductors,0.031953312339294486,0.00644599913822924,0.011035713714500059
 AMDD,True,data_sparse,,,0.0,0.0,0.0
 AMDG,True,data_sparse,,,0.0,0.0,0.0
 AMDL,True,data_sparse,,,0.0,0.0,0.0
 AMDU,True,data_sparse,,,0.0,0.0,0.0
 AMDY,True,data_sparse,,,0.0,0.0,0.0
-AME,True,ok,Industrials,Specialty Industrial Machinery,0.14588424205885395,0.04625583300150231,0.008104935019411898
+AME,True,ok,Industrials,Specialty Industrial Machinery,0.14588424205885395,0.0458110207356712,0.008026995129965275
 AMG,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AMGN,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - General,0.6543951915852743,0.33832022176969806,0.06740058928182824
+AMGN,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - General,0.6543951915852743,0.35125721138576993,0.06997791297562062
 AMH,False,industry_excluded,Real Estate,REIT - Residential,0.0,0.0,0.0
 AMID,True,data_sparse,,,0.0,0.0,0.0
-AMIX,False,cashinv/mktcap>0.33,Healthcare,Medical Devices,,,1.565190785305387
+AMIX,False,cashinv/mktcap>0.33,Healthcare,Medical Devices,,,1.8021341317434463
 AMJB,True,data_sparse,,,0.0,0.0,0.0
-AMKR,True,ok,Technology,Semiconductor Equipment & Materials,0.18718629073972312,0.12164159247307386,0.10607661772069508
+AMKR,True,ok,Technology,Semiconductor Equipment & Materials,0.18718629073972312,0.11867672814150748,0.10349113052097014
 AMLP,True,data_sparse,,,0.0,0.0,0.0
-AMLX,True,ok,Healthcare,Biotechnology,0.010230641312992552,0.0012703295541743047,0.04962749849929511
-AMN,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.4544375254323026,1.7575773511884922,0.017049091237092334
-AMOD,False,debt/assets>0.30,Technology,Software - Application,2.1339703110508603,0.1253046701779061,0.02537785806496771
+AMLX,True,ok,Healthcare,Biotechnology,0.010230641312992552,0.001376998389442427,0.05379469074070614
+AMN,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.4544375254323026,1.7457670536039338,0.01693452737967793
+AMOD,False,debt/assets>0.30,Technology,Software - Application,2.1339703110508603,0.15182452339942248,0.03074890345380978
 AMOM,True,data_sparse,,,0.0,0.0,0.0
 AMP,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AMPG,True,ok,Technology,Communication Equipment,0.10692115835265326,0.06744435082571729,0.2819091387488449
-AMPH,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.4124002358206495,0.5226664870610267,0.12180626430420337
-AMPL,True,ok,Technology,Software - Application,0.012522678292304967,0.003742783676196342,0.11507048996454793
-AMPX,False,debt/assets>0.30,Industrials,Electrical Equipment & Parts,0.3117358101135191,0.023758360204979467,0.03470410649396548
-AMPY,False,debt/mktcap>0.33,Energy,Oil & Gas E&P,0.17731395467127842,0.5886204667223833,0.0
-AMR,True,ok,Basic Materials,Coking Coal,0.002371747663106858,0.0024745256339551236,0.20602992837981335
-AMRC,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Engineering & Construction,0.40958872749553443,0.9702438317300287,0.0618143248747508
+AMPG,True,ok,Technology,Communication Equipment,0.10692115835265326,0.07269975512517415,0.30387608604240424
+AMPH,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.4124002358206495,0.5536914065857381,0.12903655291308905
+AMPL,True,ok,Technology,Software - Application,0.012522678292304967,0.003712841356022019,0.11414992448408813
+AMPX,False,debt/assets>0.30,Industrials,Electrical Equipment & Parts,0.3117358101135191,0.026523999871161066,0.0387439077542808
+AMPY,False,debt/mktcap>0.33,Energy,Oil & Gas E&P,0.17731395467127842,0.67478965477284,0.0
+AMR,True,ok,Basic Materials,Coking Coal,0.002371747663106858,0.0023946849532393744,0.19938236348739824
+AMRC,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Engineering & Construction,0.40958872749553443,1.073207184902792,0.068374129693985
 AMRK,False,industry_excluded,Financial Services,Capital Markets,0.0,0.0,0.0
-AMRN,False,cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - General,0.011268711269732647,0.02245639052436387,0.35194569419758565
-AMRX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.7405910988177739,0.6772471460576805,0.02887273936760378
-AMRZ,True,ok,Basic Materials,Building Materials,0.24611982820938044,0.19117633749278085,0.06024630953469804
-AMSC,True,ok,Industrials,Specialty Industrial Machinery,0.010849507762760006,0.002296186846632696,0.05418019506863151
+AMRN,False,cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - General,0.011268711269732647,0.025865510356033163,0.4053748080374909
+AMRX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.7405910988177739,0.6755831629721968,0.028801799607696427
+AMRZ,True,ok,Basic Materials,Building Materials,0.24611982820938044,0.18601125750891714,0.05861861328546387
+AMSC,True,ok,Industrials,Specialty Industrial Machinery,0.010849507762760006,0.0022778071138186977,0.05374651193407645
 AMSF,False,industry_excluded,Financial Services,Insurance - Specialty,0.0,0.0,0.0
-AMST,True,ok,Technology,Software - Application,0.0,0.0,0.216225353445146
+AMST,True,ok,Technology,Software - Application,0.0,0.0,0.1985571302345217
 AMT,False,industry_excluded,Real Estate,REIT - Specialty,0.0,0.0,0.0
 AMTB,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 AMTD,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AMTM,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Specialty Business Services,0.3636125654450262,0.5923148487775007,0.06211701197882597
-AMTX,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,1.3037346414605364,3.3920009296903157,0.009010258015156742
+AMTM,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Specialty Business Services,0.3636125654450262,0.5755737796372465,0.060361349100426384
+AMTX,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,1.3037346414605364,3.50737499869741,0.009316729077977863
 AMUB,True,data_sparse,,,0.0,0.0,0.0
 AMUU,True,data_sparse,,,0.0,0.0,0.0
-AMWD,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,"Furnishings, Fixtures & Appliances",0.324677234811078,0.6384619498974244,0.06034317330153742
-AMWL,False,cashinv/mktcap>0.33,Healthcare,Health Information Services,0.018811013652378156,0.12492250378348609,3.4778449425473004
+AMWD,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,"Furnishings, Fixtures & Appliances",0.324677234811078,0.6117896252166373,0.05782228272876922
+AMWL,False,cashinv/mktcap>0.33,Healthcare,Health Information Services,0.018811013652378156,0.10866361263690102,3.0251970958183994
 AMZA,True,data_sparse,,,0.0,0.0,0.0
 AMZD,True,data_sparse,,,0.0,0.0,0.0
-AMZN,True,ok,Consumer Cyclical,Internet Retail,0.20947552704938757,0.053347455686871666,0.03210587632968726
+AMZN,True,ok,Consumer Cyclical,Internet Retail,0.20947552704938757,0.054135201850303856,0.0325799623114216
 AMZU,True,data_sparse,,,0.0,0.0,0.0
 AMZY,True,data_sparse,,,0.0,0.0,0.0
 AMZZ,True,data_sparse,,,0.0,0.0,0.0
-AN,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto & Truck Dealerships,0.6656591061168924,1.0989994212406045,0.007593580989541884
-ANAB,True,ok,Healthcare,Biotechnology,0.033145665662189926,0.012926784406790865,0.09920986623357358
-ANDE,False,debt/mktcap>0.33,Consumer Defensive,Food Distribution,0.21260597954924085,0.512147949399837,0.32835495549304716
-ANEB,True,ok,Healthcare,Biotechnology,0.0,0.0,0.12523061063524252
+AN,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto & Truck Dealerships,0.6656591061168924,1.1296041545602673,0.007805045633321084
+ANAB,True,ok,Healthcare,Biotechnology,0.033145665662189926,0.012757073569996478,0.09790737762643678
+ANDE,False,debt/mktcap>0.33,Consumer Defensive,Food Distribution,0.21260597954924085,0.4743937264976551,0.3041494769877681
+ANEB,True,ok,Healthcare,Biotechnology,0.0,0.0,0.12359003648731078
 ANEL,True,data_sparse,,,0.0,0.0,0.0
-ANET,True,ok,Technology,Computer Hardware,,,0.017058803500421927
+ANET,True,ok,Technology,Computer Hardware,,,0.017582489917343708
 ANEW,True,data_sparse,,,0.0,0.0,0.0
-ANF,True,ok,Consumer Cyclical,Apparel Retail,0.2883774505005777,0.21874356431228875,0.17762373803252157
-ANGH,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,0.09910463043590798,0.6169116952099387,0.709936883757242
-ANGI,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Internet Content & Information,0.278393104408885,0.8263041978148687,0.6751529680590291
+ANF,True,ok,Consumer Cyclical,Apparel Retail,0.2883774505005777,0.18036446712813997,0.14645921565859882
+ANGH,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Entertainment,0.09910463043590798,0.729522570399529,0.8395285488691622
+ANGI,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Internet Content & Information,0.278393104408885,0.8655038777586807,0.7071820686384724
 ANGL,True,data_sparse,,,0.0,0.0,0.0
-ANGO,True,ok,Healthcare,Medical Instruments & Supplies,,,0.10071502030125487
-ANGX,True,ok,Communication Services,Entertainment,0.1449663028178785,0.016939379683949297,0.008553276056707027
-ANIK,False,cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.1279076649896419,0.1873107878510113,0.40181674446104837
-ANIP,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.48616768598820437,0.3398445497725157,0.07888295527678034
-ANIX,True,ok,Healthcare,Biotechnology,0.010745217914871938,0.0014714087994439629,0.008061037000402055
-ANL,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.38201206678826993,0.7305213926244183,1.634107612341597
-ANNA,True,ok,Energy,Oil & Gas E&P,0.020981821242371107,0.012647605426564339,0.2055337741258748
-ANNX,True,ok,Healthcare,Biotechnology,0.08276035432812201,0.04216270138843424,0.07203401191925715
-ANPA,True,ok,Industrials,Specialty Business Services,0.18602405127379662,0.004677836783012084,0.001273005911115851
-ANRO,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.09543657275461581,0.04061158121701643,0.40321327293186127
-ANTA,False,debt/assets>0.30|debt/mktcap>0.33,Financial Services,Credit Services,0.3268607508348103,1.6669833720627807,0.024091189280248056
+ANGO,True,ok,Healthcare,Medical Instruments & Supplies,,,0.10324439230635965
+ANGX,True,ok,Communication Services,Entertainment,0.1449663028178785,0.016705502081273572,0.008435183202276129
+ANIK,False,cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.1279076649896419,0.1880945142150109,0.4034979843925205
+ANIP,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.48616768598820437,0.34567841653250886,0.08023708218870898
+ANIX,True,ok,Healthcare,Biotechnology,0.010745217914871938,0.001968728559611413,0.010785577583043562
+ANL,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Biotechnology,0.38201206678826993,0.5346569580676164,1.1959773033216032
+ANNA,True,ok,Energy,Oil & Gas E&P,0.020981821242371107,0.01458346356747185,0.23699302798884922
+ANNX,True,ok,Healthcare,Biotechnology,0.08276035432812201,0.039108665439705106,0.06681626128449963
+ANPA,True,ok,Industrials,Specialty Business Services,0.18602405127379662,0.004925069439768507,0.0013402867180509633
+ANRO,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.09543657275461581,0.03604848275034899,0.35790841623043324
+ANTA,False,debt/assets>0.30|debt/mktcap>0.33,Financial Services,Credit Services,0.3268607508348103,1.7128970156712549,0.024754731758988475
 ANTE,True,data_sparse,,,0.0,0.0,0.0
-ANTX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.7083418210019664
-ANVS,True,ok,Healthcare,Biotechnology,0.0,0.0,0.08750375554779057
+ANTX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.6493133241905634
+ANVS,True,ok,Healthcare,Biotechnology,0.0,0.0,0.09640244392253748
 ANY,False,industry_excluded,Financial Services,Capital Markets,0.0,0.0,0.0
 AOA,True,data_sparse,,,0.0,0.0,0.0
 AOD,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
@@ -421,219 +421,219 @@ AOMN,True,data_sparse,,,0.0,0.0,0.0
 AOMR,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 AON,False,industry_excluded,Financial Services,Insurance Brokers,0.0,0.0,0.0
 AOR,True,data_sparse,,,0.0,0.0,0.0
-AORT,False,debt/assets>0.30,Healthcare,Medical Devices,0.45907684821081207,0.17148725453615235,0.025308545537341656
-AOS,True,ok,Industrials,Specialty Industrial Machinery,0.06688271604938271,0.02273152790025779,0.025133705975550376
-AOSL,True,ok,Technology,Semiconductors,0.04921961939586369,0.07972997041847676,0.23974589733813947
+AORT,False,debt/assets>0.30,Healthcare,Medical Devices,0.45907684821081207,0.16947289199801616,0.02501126055156805
+AOS,True,ok,Industrials,Specialty Industrial Machinery,0.06688271604938271,0.022503285620434504,0.024881343953189236
+AOSL,True,ok,Technology,Semiconductors,0.04921961939586369,0.08321692981302038,0.25023109135788774
 AOTG,True,data_sparse,,,0.0,0.0,0.0
-AOUT,False,debt/mktcap>0.33,Consumer Cyclical,Leisure,0.13510990237665157,0.3669424197050939,0.2582211896275323
-AP,False,debt/mktcap>0.33,Industrials,Metal Fabrication,0.25084385642385704,2.267017282014039,0.2626173340464255
-APA,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas E&P,0.317792676637442,0.6355189366306684,0.06445948318633037
+AOUT,False,debt/mktcap>0.33,Consumer Cyclical,Leisure,0.13510990237665157,0.33331012442702096,0.2345537943354097
+AP,False,debt/mktcap>0.33,Industrials,Metal Fabrication,0.25084385642385704,1.8048705168840524,0.20908101901278256
+APA,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas E&P,0.317792676637442,0.6641944937302844,0.06736799068182858
 APAM,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 APCB,True,data_sparse,,,0.0,0.0,0.0
-APD,False,debt/assets>0.30,Basic Materials,Specialty Chemicals,0.4482811529609469,0.31720033761846655,0.031985082560217426
-APDN,False,cashinv/mktcap>0.33,Healthcare,Diagnostics & Research,0.057796441327887006,0.19078101226126917,1.6598965774011167
+APD,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.4482811529609469,0.34028968409668464,0.03431331038907796
+APDN,True,data_sparse,,,0.0,0.0,0.0
 APED,True,data_sparse,,,0.0,0.0,0.0
-APEI,False,debt/assets>0.30,Consumer Defensive,Education & Training Services,0.351904831232251,0.32145070596512576,0.21138113384950397
-APG,False,debt/assets>0.30,Industrials,Engineering & Construction,0.37230127576054955,0.1868234308319231,0.03071660361948258
-APGE,True,ok,Healthcare,Biotechnology,0.015692001204322296,0.0022562839643519125,0.027040507735736057
-APH,False,debt/assets>0.30,Technology,Electronic Components,0.3211770412589435,0.04036770627923675,0.01944492263084014
-API,True,ok,Technology,Software - Application,0.07166399391699325,0.14620612141027914,0.07897288364887495
+APEI,False,debt/assets>0.30,Consumer Defensive,Education & Training Services,0.351904831232251,0.3003862234400637,0.1975294479845373
+APG,False,debt/assets>0.30,Industrials,Engineering & Construction,0.37230127576054955,0.18399706235334287,0.030251905803729193
+APGE,True,ok,Healthcare,Biotechnology,0.015692001204322296,0.002246624158670441,0.026924739483874832
+APH,False,debt/assets>0.30,Technology,Electronic Components,0.3211770412589435,0.04352865469361563,0.020967535705075886
+API,True,ok,Technology,Software - Application,0.07166399391699325,0.14098447040602116,0.07615242146003731
 APIE,True,data_sparse,,,0.0,0.0,0.0
-APLD,False,debt/assets>0.30,Technology,Information Technology Services,0.37585196434396206,0.08049629830325002,0.004758702002052485
+APLD,False,debt/assets>0.30,Technology,Information Technology Services,0.37585196434396206,0.09034081278359286,0.005340680450183817
 APLE,False,industry_excluded,Real Estate,REIT - Hotel & Motel,0.0,0.0,0.0
-APLM,True,ok,Healthcare,Biotechnology,0.07375171781951442,0.02770109082451541,0.2800505724557117
-APLS,False,debt/assets>0.30,Healthcare,Biotechnology,0.5307987901262187,0.15712938870544535,0.1375648091051688
-APLT,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.03224094773390548,0.0892593527554692,2.5356043256095684
+APLM,True,ok,Healthcare,Biotechnology,0.07375171781951442,0.02808079637503839,0.28388929337331775
+APLS,False,debt/assets>0.30,Healthcare,Biotechnology,0.5307987901262187,0.1471647796515312,0.12884091885393772
+APLT,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.03224094773390548,0.1651259975031229,4.690759910466173
 APLU,True,data_sparse,,,0.0,0.0,0.0
 APLY,True,data_sparse,,,0.0,0.0,0.0
-APM,True,ok,Healthcare,Biotechnology,0.207988879013018,0.31209131105409277,0.0813262733045381
+APM,True,ok,Healthcare,Biotechnology,0.207988879013018,0.3168927789676341,0.08257746319021854
 APMU,True,data_sparse,,,0.0,0.0,0.0
 APO,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-APOG,False,debt/mktcap>0.33,Industrials,Building Products & Equipment,0.2994395325665869,0.4341562556215872,0.05113322975830879
+APOG,False,debt/mktcap>0.33,Industrials,Building Products & Equipment,0.2994395325665869,0.4087517629543978,0.048141187737435795
 APOS,True,data_sparse,,,0.0,0.0,0.0
-APP,False,debt/assets>0.30,Communication Services,Advertising Agencies,0.6059376490286082,0.015195152996694272,0.0031677645201916254
-APPF,True,ok,Technology,Software - Application,0.06661953985938553,0.004937058480283088,0.0050263415565870405
-APPN,False,debt/assets>0.30,Technology,Software - Infrastructure,0.5072000309159328,0.10387689776929973,0.039095764591197915
-APPS,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Application,0.5144687729899834,0.7442842115576908,0.07134085228671908
+APP,False,debt/assets>0.30,Communication Services,Advertising Agencies,0.6059376490286082,0.015677060953298492,0.00326822885426322
+APPF,True,ok,Technology,Software - Application,0.06661953985938553,0.005021963408829661,0.005112781928402977
+APPN,False,debt/assets>0.30,Technology,Software - Infrastructure,0.5072000309159328,0.1124715155058652,0.04233048914493218
+APPS,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Application,0.5144687729899834,0.7784684968587441,0.07461747163497254
 APPX,True,data_sparse,,,0.0,0.0,0.0
-APRE,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,3.4158786282847573
+APRE,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,3.8729609643357543
 APRT,True,data_sparse,,,0.0,0.0,0.0
 APRW,True,data_sparse,,,0.0,0.0,0.0
-APTV,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto Parts,0.37888993094040413,0.534445603494721,0.0945862887373083
+APTV,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto Parts,0.37888993094040413,0.51809612641828,0.09169275504679955
 APUE,True,data_sparse,,,0.0,0.0,0.0
-APVO,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.29690205888012317,0.20348892016652645,0.38306382595184957
-APWC,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Electrical Equipment & Parts,0.0913405519919967,0.8009338121616763,0.8781297650653176
-APYX,False,debt/assets>0.30,Healthcare,Medical Devices,0.5978223990623361,0.23979208332257537,0.19634817141527874
-AQB,False,debt/mktcap>0.33,Consumer Defensive,Farm Products,0.0963125610691485,0.8519762847098609,0.059825707869962275
-AQMS,True,ok,Industrials,Waste Management,0.16199506922055756,0.19925361731100613,0.19029630180557106
-AQN,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Diversified,0.39493390926423483,1.4871548616225099,0.007735065763334791
+APVO,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.29690205888012317,0.24310623737662435,0.457642633938195
+APWC,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Electrical Equipment & Parts,0.0913405519919967,0.8271122157707695,0.9068313070179475
+APYX,False,debt/assets>0.30,Healthcare,Medical Devices,0.5978223990623361,0.24476187763950852,0.2004175719264173
+AQB,False,debt/mktcap>0.33,Consumer Defensive,Farm Products,0.0963125610691485,0.9138176740837828,0.06416820537999188
+AQMS,True,ok,Industrials,Waste Management,0.16199506922055756,0.22211373057865882,0.2121287536947669
+AQN,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Diversified,0.39493390926423483,1.4820965166755131,0.007708756041443445
 AQNB,True,data_sparse,,,0.0,0.0,0.0
-AQST,False,debt/assets>0.30,Healthcare,Drug Manufacturers - Specialty & Generic,0.3747042120208235,0.048824489462523116,0.0919165593907399
+AQST,False,debt/assets>0.30,Healthcare,Drug Manufacturers - Specialty & Generic,0.3747042120208235,0.05016107028098614,0.09443279481958305
 AQWA,True,data_sparse,,,0.0,0.0,0.0
-AR,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas E&P,0.31002655639294235,0.3552704028288729,0.0
-ARAI,True,ok,Technology,Software - Infrastructure,0.019317910320838075,0.00014524346696236751,0.000984309540962134
-ARAY,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Devices,0.375079480859733,1.5718793433470477,0.5116938397728393
+AR,False,debt/assets>0.30|debt/mktcap>0.33,Energy,Oil & Gas E&P,0.31002655639294235,0.37101982988005905,0.0
+ARAI,True,ok,Technology,Software - Infrastructure,0.019317910320838075,0.0001495267822566079,0.001013337408440416
+ARAY,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Devices,0.375079480859733,1.468076083875636,0.47790276754794286
 ARB,True,data_sparse,,,0.0,0.0,0.0
-ARBB,False,cashinv/mktcap>0.33,Technology,Information Technology Services,0.0005089559263053189,0.013070582205154968,3.139335925792042
-ARBE,False,debt/assets>0.30,Technology,Scientific & Technical Instruments,0.5366607991840361,0.19715175965598103,0.08151501852246558
+ARBB,False,cashinv/mktcap>0.33,Technology,Information Technology Services,0.0005089559263053189,0.010868081092988632,2.610331879951321
+ARBE,False,debt/assets>0.30,Technology,Scientific & Technical Instruments,0.5366607991840361,0.2436346880241926,0.1007340038032711
 ARBK,False,industry_excluded,Financial Services,Capital Markets,0.0,0.0,0.0
 ARBKL,True,data_sparse,,,0.0,0.0,0.0
-ARCB,True,ok,Industrials,Trucking,0.17017357065452923,0.2555591874715302,0.07876995300361254
+ARCB,True,ok,Industrials,Trucking,0.17017357065452923,0.23760296790561194,0.07323538159835832
 ARCC,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ARCO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Restaurants,0.5947088728897407,1.10203230154936,0.08652328987922525
-ARCT,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.08297754229529541,0.14093100905992756,1.1700383613119618
+ARCO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Restaurants,0.5947088728897407,1.091719139772872,0.0857135779636091
+ARCT,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.08297754229529541,0.13469679699561427,1.1182806444229934
 ARDC,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 ARDT,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Care Facilities,0.4604808216137689,1.8132474653864474,0.44237746742938167
-ARDX,False,debt/assets>0.30,Healthcare,Biotechnology,0.3521206919500452,0.10560181761051962,0.044688650927972605
+ARDX,False,debt/assets>0.30,Healthcare,Biotechnology,0.3521206919500452,0.1016906388801791,0.04303351558132789
 ARE,False,industry_excluded,Real Estate,REIT - Office,0.0,0.0,0.0
 AREA,True,data_sparse,,,0.0,0.0,0.0
-AREB,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Footwear & Accessories,1.080564129393582,1.6253126648858505,0.04322389239804667
-AREC,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Coking Coal,1.071125669179975,0.7130376047919527,0.0019546112484896856
+AREB,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Footwear & Accessories,1.080564129393582,1.6562711577676812,0.04404720879374087
+AREC,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Coking Coal,1.071125669179975,0.8323396381091531,0.0022816474310449245
 ARES,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 ARGD,True,data_sparse,,,0.0,0.0,0.0
 ARGT,True,data_sparse,,,0.0,0.0,0.0
-ARGX,True,ok,Healthcare,Biotechnology,0.006296309791404206,0.0006958653915203593,0.026726590835415502
-ARHS,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.4140697793944539,0.33595361737106305,0.1328421777032107
+ARGX,True,ok,Healthcare,Biotechnology,0.006296309791404206,0.0007142777424884721,0.02743376693102166
+ARHS,False,debt/assets>0.30,Consumer Cyclical,Specialty Retail,0.4140697793944539,0.32575447576403244,0.12880925139515756
 ARI,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
 ARIS,True,data_sparse,Utilities,Utilities - Regulated Water,0.0,0.0,0.0
-ARKO,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.7135272096950334,4.68599848557881,0.4747927341736624
-ARKR,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Restaurants,0.6139924763363475,3.747233697321953,0.4017966325629219
+ARKO,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.7135272096950334,4.510734707278313,0.45703473259577226
+ARKR,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Restaurants,0.6139924763363475,3.9594466966846835,0.4245511430678206
 ARL,False,industry_excluded,Real Estate,Real Estate Services,0.0,0.0,0.0
-ARLO,True,ok,Industrials,Building Products & Equipment,0.06151809651474531,0.011936035544789303,0.05333861022008804
-ARM,True,ok,Technology,Semiconductors,0.039856695029108824,0.002374446074824446,0.013906517039351038
+ARLO,True,ok,Industrials,Building Products & Equipment,0.06151809651474531,0.012309302220563999,0.055006628520853404
+ARM,True,ok,Technology,Semiconductors,0.039856695029108824,0.0025634729207813785,0.015013598426486443
 ARMG,True,data_sparse,,,0.0,0.0,0.0
 ARMH,True,data_sparse,,,0.0,0.0,0.0
-ARMK,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Specialty Business Services,0.4300748258369324,0.5734401361114386,0.06404816855339035
-AROC,True,ok,Energy,Oil & Gas Equipment & Services,0.0032464263814309118,0.0028396840667546707,0.0010109869975880503
+ARMK,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Specialty Business Services,0.4300748258369324,0.5815621236718667,0.0649553224052054
+AROC,True,ok,Energy,Oil & Gas Equipment & Services,0.0032464263814309118,0.0027113490232064585,0.0009652970344399957
 AROW,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 ARP,True,data_sparse,,,0.0,0.0,0.0
-ARQ,True,ok,Industrials,Pollution & Treatment Controls,0.12083989759747932,0.21349320566665794,0.08397329010245172
-ARQQ,True,ok,Technology,Software - Infrastructure,0.03705228489090161,0.002127473588985822,0.04019635705250484
-ARQT,False,debt/assets>0.30,Healthcare,Biotechnology,0.31696327485246023,0.028935647906189556,0.01866550113838253
+ARQ,True,ok,Industrials,Pollution & Treatment Controls,0.12083989759747932,0.24025952364303713,0.09450128689460437
+ARQQ,True,ok,Technology,Software - Infrastructure,0.016779071666938927,0.001620353958399491,0.0833344209648072
+ARQT,False,debt/assets>0.30,Healthcare,Biotechnology,0.31696327485246023,0.031109311595746,0.02006766507828856
 ARR,False,industry_excluded,Real Estate,REIT - Mortgage,0.0,0.0,0.0
-ARRY,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Solar,0.4856770586795643,0.5724884838510362,0.3000523260730684
-ARTL,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.022137079608343976,0.027998439677453083,0.6294264612104357
-ARTNA,False,debt/mktcap>0.33,Utilities,Utilities - Regulated Water,0.22427478297018744,0.5489853010516447,0.0035156195895631
-ARTV,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.06848903287988892,0.174049323757906,0.4878692031071024
-ARTW,False,debt/mktcap>0.33,Industrials,Farm & Heavy Construction Machinery,0.22520211684331823,0.3885669674567557,0.0001510907426108339
+ARRY,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Solar,0.4856770586795643,0.5321723699728209,0.27892186827588955
+ARTL,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.022137079608343976,0.02641904034938688,0.5939203493929472
+ARTNA,False,debt/mktcap>0.33,Utilities,Utilities - Regulated Water,0.22427478297018744,0.5420295862753941,0.003471076234613603
+ARTV,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.06848903287988892,0.1772138539449329,0.4967395439232531
+ARTW,False,debt/mktcap>0.33,Industrials,Farm & Heavy Construction Machinery,0.22520211684331823,0.37989714301362465,0.00014771955997533616
 ARTY,True,data_sparse,,,0.0,0.0,0.0
-ARVN,True,ok,Healthcare,Biotechnology,0.008887667216419278,0.010330017023457311,0.10702749596468658
+ARVN,True,ok,Healthcare,Biotechnology,0.008887667216419278,0.010502457721560736,0.10881412381617052
 ARVR,True,data_sparse,,,0.0,0.0,0.0
-ARW,False,debt/mktcap>0.33,Technology,Electronics & Computer Distribution,0.1435703220013028,0.5391374439261095,0.03258665543726199
-ARWR,True,ok,Healthcare,Biotechnology,0.2644086638586005,0.04311991450714095,0.010442703302001848
+ARW,False,debt/mktcap>0.33,Technology,Electronics & Computer Distribution,0.1435703220013028,0.5338690329936102,0.032268221068265004
+ARWR,True,ok,Healthcare,Biotechnology,0.2644086638586005,0.037798368191244214,0.009153940791223503
 ARX,False,industry_excluded,Financial Services,Insurance Brokers,0.0,0.0,0.0
-AS,True,ok,Consumer Cyclical,Leisure,0.1779206602449528,0.07468577199079635,0.01739243908145972
+AS,True,ok,Consumer Cyclical,Leisure,0.1779206602449528,0.06972099986969228,0.016236268443225264
 ASA,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ASAN,True,ok,Technology,Software - Application,0.2951375060998525,0.07825219796455514,0.054944589401331644
+ASAN,True,ok,Technology,Software - Application,0.2951375060998525,0.07732516805023393,0.05429367761444225
 ASB,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 ASBA,True,data_sparse,,,0.0,0.0,0.0
-ASBP,False,debt/assets>0.30,Healthcare,Biotechnology,8.560311915074768,0.0994604601920439,0.0002852310739527384
-ASC,True,ok,Industrials,Marine Shipping,0.06276541255024483,0.09188222805968832,0.09759617813297997
+ASBP,False,debt/assets>0.30,Healthcare,Biotechnology,8.560311915074768,0.0963196049502618,0.00027622378088357506
+ASC,True,ok,Industrials,Marine Shipping,0.06276541255024483,0.09757331395304454,0.10364117991784383
 ASCE,True,data_sparse,,,0.0,0.0,0.0
 ASEA,True,data_sparse,,,0.0,0.0,0.0
 ASET,True,data_sparse,,,0.0,0.0,0.0
 ASG,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 ASGI,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 ASGM,True,data_sparse,,,0.0,0.0,0.0
-ASGN,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Information Technology Services,0.32076407115777195,0.5525164295837655,0.10307879930047156
-ASH,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.3231403166341358,0.5562556977931522,0.08026508390975015
+ASGN,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Information Technology Services,0.32076407115777195,0.5224021698677598,0.09746061028899382
+ASH,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.3231403166341358,0.5504597542857034,0.07942875649089008
 ASHR,True,data_sparse,,,0.0,0.0,0.0
 ASHS,True,data_sparse,,,0.0,0.0,0.0
 ASIA,True,data_sparse,,,0.0,0.0,0.0
 ASIC,False,industry_excluded,Financial Services,Insurance - Property & Casualty,0.0,0.0,0.0
-ASIX,False,debt/mktcap>0.33,Basic Materials,Chemicals,0.2187526647104557,0.8106968532876091,0.04545941947163969
-ASLE,True,ok,Industrials,Airports & Air Services,0.12562776676263346,0.24284240757091674,0.015017423071846347
+ASIX,False,debt/mktcap>0.33,Basic Materials,Chemicals,0.2187526647104557,0.796770832433311,0.044678524836340355
+ASLE,True,ok,Industrials,Airports & Air Services,0.12562776676263346,0.23099644741051212,0.014284866525399315
 ASLV,True,data_sparse,,,0.0,0.0,0.0
-ASMB,True,ok,Healthcare,Biotechnology,0.025921388292158967,0.005578248530598986,0.06924323783013517
+ASMB,True,ok,Healthcare,Biotechnology,0.025921388292158967,0.005409819389143902,0.06715251364756677
 ASMF,True,data_sparse,,,0.0,0.0,0.0
 ASMG,True,data_sparse,,,0.0,0.0,0.0
 ASMH,True,data_sparse,,,0.0,0.0,0.0
-ASML,True,ok,Technology,Semiconductor Equipment & Materials,0.07568080412269292,0.008616853346777906,0.0298434673644328
-ASND,False,debt/assets>0.30,Healthcare,Biotechnology,0.7262565759074858,0.0682453503094731,0.04457797665256486
-ASNS,False,cashinv/mktcap>0.33,Technology,Communication Equipment,0.1635258358662614,0.2829115692913212,0.41374502364017013
-ASO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.36453121559987295,0.5338422495727863,0.08633520583582448
-ASPI,False,debt/assets>0.30,Basic Materials,Chemicals,0.4000713295550086,0.0521962462155307,0.08558349500506382
-ASPN,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Building Products & Equipment,0.22050530417452388,0.6746541077626771,0.7549697474508351
+ASML,True,ok,Technology,Semiconductor Equipment & Materials,0.07568080412269292,0.008765297414749084,0.030357586094281908
+ASND,False,debt/assets>0.30,Healthcare,Biotechnology,0.7262565759074858,0.06360731807758487,0.04154840626264985
+ASNS,False,cashinv/mktcap>0.33,Technology,Communication Equipment,0.1635258358662614,0.31281279050150307,0.457474170198109
+ASO,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.36453121559987295,0.4827464695823591,0.0780717821627342
+ASPI,False,debt/assets>0.30,Basic Materials,Chemicals,0.4000713295550086,0.05733061866414352,0.09400206091103976
+ASPN,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Building Products & Equipment,0.22050530417452388,0.7417004641377779,0.8299977805682358
 ASPS,False,industry_excluded,Real Estate,Real Estate Services,0.0,0.0,0.0
-ASR,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Airports & Air Services,0.16000085703949862,1.4732863873444069,2.2110887715720953
-ASRT,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.13966466712557773,0.5365645300215861,0.6825691262788743
+ASR,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Airports & Air Services,0.16000085703949862,1.3850014440762723,2.078591893547647
+ASRT,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.13966466712557773,0.5422688984034215,0.689825710574906
 ASRV,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 ASST,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ASTC,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Scientific & Technical Instruments,0.09926266256623069,0.4479600685233577,0.5183561823151955
-ASTE,True,ok,Industrials,Farm & Heavy Construction Machinery,0.11335760827903411,0.11436077915502478,0.0853597362585688
-ASTH,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.3482479072163579,0.42625743270259214,0.2605890732860705
-ASTI,False,cashinv/mktcap>0.33,Technology,Solar,0.28861699540441615,0.30717118742609323,0.4722051471133111
-ASTL,False,debt/mktcap>0.33,Basic Materials,Steel,0.05459641255605381,0.335495500945425,0.22481183807362842
-ASTS,True,ok,Technology,Communication Equipment,0.1812351436943265,0.0063700588319624525,0.02080350751070984
-ASUR,True,ok,Technology,Software - Application,0.04061258983414178,0.07798628326065951,0.09422298081879152
-ASX,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Semiconductors,0.2717890916343517,6.069892461541057,2.3052405846436246
-ASYS,True,ok,Technology,Semiconductor Equipment & Materials,0.1477138029305692,0.1377713429765196,0.08692351648953937
-ATAI,True,ok,Healthcare,Biotechnology,0.1550063681479669,0.015746504679517995,0.011156907812473187
-ATAT,False,cashinv/mktcap>0.33,Consumer Cyclical,Lodging,0.2199332285290654,0.29236929849728865,0.6105240326087192
-ATEC,False,debt/assets>0.30,Healthcare,Medical Devices,0.7862938469273311,0.19141843373572537,0.043572662279104876
-ATEN,True,ok,Technology,Software - Infrastructure,0.027582223351778474,0.009310908394515365,0.0741947901375316
-ATER,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,"Furnishings, Fixtures & Appliances",0.14965080134027695,0.9300631479846971,2.2577928968746397
-ATEX,True,ok,Communication Services,Telecom Services,0.016181132619242037,0.0140715882715582,0.12367855710144679
+ASTC,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Scientific & Technical Instruments,0.09926266256623069,0.3626343678255319,0.419621702224393
+ASTE,True,ok,Industrials,Farm & Heavy Construction Machinery,0.11335760827903411,0.11109333314174581,0.08292089024865727
+ASTH,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.3482479072163579,0.4008309196800815,0.24504477785074552
+ASTI,True,ok,Technology,Solar,0.28861699540441615,0.15560830292333158,0.23921202437531305
+ASTL,True,ok,Basic Materials,Steel,0.05459641255605381,0.30735238331871123,0.2059534450848859
+ASTS,True,ok,Technology,Communication Equipment,0.1812351436943265,0.006139175435854172,0.020049482376603336
+ASUR,True,ok,Technology,Software - Application,0.04061258983414178,0.07168435893587204,0.08660899961659382
+ASX,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Technology,Semiconductors,0.2717890916343517,5.858062387740065,2.224791172027487
+ASYS,True,ok,Technology,Semiconductor Equipment & Materials,0.21010412068092987,0.1237839003434608,0.11357694622812085
+ATAI,True,ok,Healthcare,Biotechnology,0.1550063681479669,0.015855569623226637,0.011234183852286176
+ATAT,False,cashinv/mktcap>0.33,Consumer Cyclical,Lodging,0.2199332285290654,0.29325817414230027,0.6123801780592485
+ATEC,False,debt/assets>0.30,Healthcare,Medical Devices,0.7862938469273311,0.20570770230476007,0.04682533476953793
+ATEN,True,ok,Technology,Software - Infrastructure,0.027582223351778474,0.009131061742253956,0.0727616663158717
+ATER,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,"Furnishings, Fixtures & Appliances",0.14965080134027695,0.9601353337886563,2.330795216823339
+ATEX,True,ok,Communication Services,Telecom Services,0.016181132619242037,0.012505359642856024,0.10991259883500208
 ATFV,True,data_sparse,,,0.0,0.0,0.0
-ATGE,True,ok,Consumer Defensive,Education & Training Services,0.281214030763507,0.22534358410334254,0.058112150814743246
-ATGL,True,ok,Technology,Software - Infrastructure,0.05710655589757355,0.007960088720763,0.09739298673867253
-ATHA,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.02070467343779241,0.07812032816575938,3.10927892826052
-ATHE,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.003377564508685892,0.002507780510024663,0.5349041609350831
-ATHM,False,cashinv/mktcap>0.33,Communication Services,Internet Content & Information,0.0032001257377788257,0.03408878994317416,0.5969484183242162
-ATHR,True,ok,Technology,Software - Application,0.0,0.0,0.0071356384644504466
+ATGE,True,ok,Consumer Defensive,Education & Training Services,0.281214030763507,0.2293710516518586,0.05915076392863389
+ATGL,True,ok,Technology,Software - Infrastructure,0.05710655589757355,0.008755425840041286,0.10712406640724426
+ATHA,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.02070467343779241,0.07973522199090158,3.173553560226204
+ATHE,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.003377564508685892,0.002606872229500638,0.5560402104617579
+ATHM,False,cashinv/mktcap>0.33,Communication Services,Internet Content & Information,0.0032001257377788257,0.03356867114369269,0.587840318705288
+ATHR,True,ok,Technology,Software - Application,0.0,0.0,0.007113614910011027
 ATHS,True,data_sparse,,,0.0,0.0,0.0
-ATI,False,debt/assets>0.30,Industrials,Metal Fabrication,0.36234848774519174,0.13694636393334728,0.05211086248547989
-ATII,False,debt/assets>0.30,Financial Services,Shell Companies,0.4469095233551552,0.0006258239075114046,0.0
-ATKR,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Electrical Equipment & Parts,0.3267340411133264,0.4324731178678416,0.23516741039097408
-ATLC,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Financial Services,Credit Services,0.7659469344089825,2.7741691063668417,0.415724276675369
+ATI,False,debt/assets>0.30,Industrials,Metal Fabrication,0.36234848774519174,0.12620030304331672,0.048021768878193434
+ATII,False,debt/assets>0.30,Financial Services,Shell Companies,0.4469095233551552,0.0006261258072920625,0.0
+ATKR,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Electrical Equipment & Parts,0.3267340411133264,0.42692260232552653,0.23214918726335768
+ATLC,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Financial Services,Credit Services,0.7659469344089825,2.508360310900128,0.3758913879824119
 ATLCL,True,data_sparse,,,0.0,0.0,0.0
 ATLCP,False,debt/assets>0.30|data_sparse,Financial Services,Credit Services,0.7659469344089825,0.0,0.0
 ATLCZ,True,data_sparse,,,0.0,0.0,0.0
-ATLN,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Staffing & Employment Services,0.6738456426452377,0.8318685734136195,0.006825419585249405
+ATLN,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Staffing & Employment Services,0.6738456426452377,0.9237434853314542,0.007579246383422312
 ATLO,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-ATLX,True,ok,Basic Materials,Other Industrial Metals & Mining,0.17867235398086181,0.09554651095226352,0.14361506163474513
-ATMU,False,debt/assets>0.30,Consumer Cyclical,Auto Parts,0.530622532134756,0.14714237793103038,0.04293594086872847
-ATNI,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.40255097698284353,2.1283456242674723,0.22467651122818597
-ATO,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Gas,0.32933321845233343,0.3359096870870141,0.007318157987602268
-ATOM,True,ok,Technology,Semiconductor Equipment & Materials,0.06812251064414229,0.025150289308516833,0.32677628921116275
+ATLX,True,ok,Basic Materials,Other Industrial Metals & Mining,0.17867235398086181,0.09159483901556562,0.13767534072716847
+ATMU,False,debt/assets>0.30,Consumer Cyclical,Auto Parts,0.530622532134756,0.1458029454511593,0.0425450963373158
+ATNI,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.40255097698284353,2.085486439142191,0.22015212755749083
+ATO,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Gas,0.32933321845233343,0.3417352836877765,0.007445074947533151
+ATOM,False,cashinv/mktcap>0.33,Technology,Semiconductor Equipment & Materials,0.06812251064414229,0.02642372305570206,0.34332194200095145
 ATON,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-ATOS,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.6878843317230702
-ATPC,True,ok,Consumer Defensive,Packaged Foods,0.11196844463923063,0.005895678031008086,0.033156777752406504
-ATR,True,ok,Healthcare,Medical Instruments & Supplies,0.2427796722137014,0.13398091427612357,0.02787077735422107
-ATRA,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Biotechnology,0.4017580523932611,0.4242147562842262,0.24225081220584022
-ATRC,True,ok,Healthcare,Medical Instruments & Supplies,0.12559737940813487,0.038617984364457,0.0619265341590295
+ATOS,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,,,0.6670393715520064
+ATPC,True,ok,Consumer Defensive,Packaged Foods,0.11196844463923063,0.05379587525323302,0.30254329873279096
+ATR,True,ok,Healthcare,Medical Instruments & Supplies,0.2427796722137014,0.13446623516845008,0.027971734050989894
+ATRA,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Biotechnology,0.4017580523932611,0.33781590117708016,0.19291213995716083
+ATRC,True,ok,Healthcare,Medical Instruments & Supplies,0.12559737940813487,0.03632168101798165,0.05824425736583989
 ATRO,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
-ATS,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Specialty Industrial Machinery,0.36789032669013766,0.6433530224109196,0.08549085146087085
-ATUS,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.7984703500195733,28.808530718654357,0.2919639409433844
+ATS,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Specialty Industrial Machinery,0.36789032669013766,0.6370433382037974,0.08465240000960597
+ATUS,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.7984703500195733,28.0464009974177,0.28424003446945056
 ATXS,True,ok,Healthcare,Biotechnology,0.01563545126079629,0.007252336311059293,0.08104516310995084
-ATYR,True,ok,Healthcare,Biotechnology,0.1371785603635237,0.16451371941617016,0.13691930799862692
-AU,True,ok,Basic Materials,Gold,0.16363912746066733,0.05171995051824433,0.03423173687343157
+ATYR,True,ok,Healthcare,Biotechnology,0.1371785603635237,0.17480245653019863,0.1454822823866104
+AU,True,ok,Basic Materials,Gold,0.16363912746066733,0.05142679518279976,0.034037706983506576
 AUB,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 AUBN,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-AUDC,True,ok,Technology,Communication Equipment,0.10854984057802745,0.14648176420914422,0.23601714567283785
-AUGO,False,debt/assets>0.30,Basic Materials,Gold,0.4326311579968563,0.1357291046984829,0.07846821167929817
+AUDC,True,ok,Technology,Communication Equipment,0.10854984057802745,0.14002882915434037,0.22561992441413917
+AUGO,False,debt/assets>0.30,Basic Materials,Gold,0.4326311579968563,0.12008486462830889,0.069423905786946
 AUGT,True,data_sparse,,,0.0,0.0,0.0
 AUGW,True,data_sparse,,,0.0,0.0,0.0
-AUID,False,cashinv/mktcap>0.33,Technology,Software - Infrastructure,0.016645547966858992,0.012890440794181002,0.4533391819497883
+AUID,False,cashinv/mktcap>0.33,Technology,Software - Infrastructure,0.016645547966858992,0.014400131983533087,0.506432957384266
 AUMI,True,data_sparse,,,0.0,0.0,0.0
-AUNA,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Care Facilities,0.5321015376967314,10.242542199386643,0.6408823590848659
-AUPH,True,ok,Healthcare,Biotechnology,0.14413823788466254,0.0385408107581463,0.04051424944228124
-AUR,True,ok,Technology,Information Technology Services,0.05659494855004677,0.014018007271568357,0.024444624250420856
-AURA,True,ok,Healthcare,Biotechnology,0.10284214506062914,0.04596572247892437,0.07761690247346956
+AUNA,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Medical Care Facilities,0.5321015376967314,11.16347219753503,0.6985055329294124
+AUPH,True,ok,Healthcare,Biotechnology,0.14413823788466254,0.03798154228030226,0.03992634425370684
+AUR,True,ok,Technology,Information Technology Services,0.05659494855004677,0.014241529582548691,0.024834402825766724
+AURA,True,ok,Healthcare,Biotechnology,0.10284214506062914,0.04519259776344117,0.07631141781217653
 AUSF,True,data_sparse,,,0.0,0.0,0.0
 AUSM,True,data_sparse,,,0.0,0.0,0.0
-AUTL,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.06723817432687086,0.1275786254211325,0.5511947376590303
-AUUD,False,cashinv/mktcap>0.33,Technology,Software - Application,0.015380889971326804,0.02325310008320902,0.7722173262009024
-AVA,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Diversified,0.3925198337740839,0.9895552056532637,0.009524111700223905
-AVAH,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.8015082415831727,0.6854745234726156,0.04333651106975259
+AUTL,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.06723817432687086,0.12282413761634724,0.530653297824489
+AUUD,False,cashinv/mktcap>0.33,Technology,Software - Application,0.015380889971326804,0.023887274921481596,0.7932777781923496
+AVA,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Diversified,0.3925198337740839,0.993404557589197,0.009561160323283899
+AVAH,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Care Facilities,0.8015082415831727,0.7075130573495381,0.0447298132780972
 AVAL,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 AVAV,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
 AVBC,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 AVBH,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-AVBP,True,ok,Healthcare,Biotechnology,0.00064013501029308,0.00017267821929060285,0.07289081219179976
-AVD,False,debt/mktcap>0.33,Basic Materials,Agricultural Inputs,0.26354871285853615,1.3772322697826433,0.10270539741524488
+AVBP,True,ok,Healthcare,Biotechnology,0.00064013501029308,0.00017458744116237256,0.073696731626569
+AVD,False,debt/mktcap>0.33,Basic Materials,Agricultural Inputs,0.26354871285853615,1.3644801318046307,0.10175442245796153
 AVDE,True,data_sparse,,,0.0,0.0,0.0
-AVDL,True,ok,Healthcare,Drug Manufacturers - Specialty & Generic,0.010375313573150831,0.0008136246218115234,0.02452858594312193
+AVDL,True,ok,Healthcare,Drug Manufacturers - Specialty & Generic,0.010375313573150831,0.0008128627835896584,0.02450561857733823
 AVDS,True,data_sparse,,,0.0,0.0,0.0
 AVDV,True,data_sparse,,,0.0,0.0,0.0
 AVDX,True,data_sparse,Technology,Software - Infrastructure,0.0,0.0,0.0
@@ -643,13 +643,13 @@ AVES,True,data_sparse,,,0.0,0.0,0.0
 AVGB,True,data_sparse,,,0.0,0.0,0.0
 AVGE,True,data_sparse,,,0.0,0.0,0.0
 AVGG,True,data_sparse,,,0.0,0.0,0.0
-AVGO,False,debt/assets>0.30,Technology,Semiconductors,0.40789640496241963,0.03666375003249899,0.005072562165938498
+AVGO,False,debt/assets>0.30,Technology,Semiconductors,0.40789640496241963,0.03975123425606286,0.0054997267534806805
 AVGU,True,data_sparse,,,0.0,0.0,0.0
 AVGV,True,data_sparse,,,0.0,0.0,0.0
 AVGX,True,data_sparse,,,0.0,0.0,0.0
 AVIE,True,data_sparse,,,0.0,0.0,0.0
 AVIG,True,data_sparse,,,0.0,0.0,0.0
-AVIR,True,ok,Healthcare,Biotechnology,0.003533705785636196,0.006630005153272902,0.2612270483533153
+AVIR,True,ok,Healthcare,Biotechnology,0.003533705785636196,0.006672100382667705,0.26288563115534097
 AVIV,True,data_sparse,,,0.0,0.0,0.0
 AVK,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 AVL,True,data_sparse,,,0.0,0.0,0.0
@@ -660,13 +660,13 @@ AVMC,True,data_sparse,,,0.0,0.0,0.0
 AVMU,True,data_sparse,,,0.0,0.0,0.0
 AVMV,True,data_sparse,,,0.0,0.0,0.0
 AVNM,True,data_sparse,,,0.0,0.0,0.0
-AVNS,True,ok,Healthcare,Medical Devices,0.14746144515681858,0.3256313773927655,0.20605463775088625
-AVNT,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.36975787716611314,0.7646380322880625,0.19376618819791036
+AVNS,True,ok,Healthcare,Medical Devices,0.14746144515681858,0.31205186246584227,0.1974617249563526
+AVNT,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.36975787716611314,0.7579697129594122,0.192076375811607
 AVNV,True,data_sparse,,,0.0,0.0,0.0
-AVNW,False,debt/mktcap>0.33,Technology,Communication Equipment,0.14356793663626488,0.33693964077072325,0.2212022212426664
-AVO,True,ok,Consumer Defensive,Food Distribution,0.22367472979927946,0.25472446898122575,0.0679890437225545
-AVPT,True,ok,Technology,Software - Infrastructure,0.031852115864407435,0.0057176418429633145,0.10054549090993402
-AVR,True,ok,Healthcare,Medical Instruments & Supplies,0.05534489626382035,0.008781717782424111,0.10929325236083837
+AVNW,False,debt/mktcap>0.33,Technology,Communication Equipment,0.14356793663626488,0.33297937239367514,0.21860228922007532
+AVO,True,ok,Consumer Defensive,Food Distribution,0.22367472979927946,0.2434391995475519,0.06497686872415098
+AVPT,True,ok,Technology,Software - Infrastructure,0.031852115864407435,0.0055159392815589394,0.09699852458864322
+AVR,True,ok,Healthcare,Medical Instruments & Supplies,0.05534489626382035,0.00823506477045002,0.10248985841539954
 AVRE,True,data_sparse,,,0.0,0.0,0.0
 AVS,True,data_sparse,,,0.0,0.0,0.0
 AVSC,True,data_sparse,,,0.0,0.0,0.0
@@ -674,122 +674,122 @@ AVSD,True,data_sparse,,,0.0,0.0,0.0
 AVSE,True,data_sparse,,,0.0,0.0,0.0
 AVSF,True,data_sparse,,,0.0,0.0,0.0
 AVSU,True,data_sparse,,,0.0,0.0,0.0
-AVT,False,debt/mktcap>0.33,Technology,Electronics & Computer Distribution,0.23746308655827145,0.7123686689447464,0.04763500347939964
-AVTR,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Instruments & Supplies,0.33478888934747614,0.544239294654003,0.03514381164502278
-AVTX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.003768277472600377,0.0017837377038282451,0.4225260089775969
+AVT,False,debt/mktcap>0.33,Technology,Electronics & Computer Distribution,0.23746308655827145,0.7088011173868825,0.047396446762519424
+AVTR,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Instruments & Supplies,0.33478888934747614,0.5325457131626581,0.034388708091449324
+AVTX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.003768277472600377,0.0016840017464628812,0.3989008784852021
 AVUQ,True,data_sparse,,,0.0,0.0,0.0
 AVUS,True,data_sparse,,,0.0,0.0,0.0
 AVUV,True,data_sparse,,,0.0,0.0,0.0
 AVXC,True,data_sparse,,,0.0,0.0,0.0
-AVXL,True,ok,Healthcare,Biotechnology,0.0,0.0,0.2609227528475771
-AVY,False,debt/assets>0.30,Consumer Cyclical,Packaging & Containers,0.3750743675781157,0.22740876335682816,0.02374221940889923
+AVXL,True,ok,Healthcare,Biotechnology,0.0,0.0,0.2855871002139338
+AVY,False,debt/assets>0.30,Consumer Cyclical,Packaging & Containers,0.3750743675781157,0.2233363230341793,0.023317043306436268
 AWAY,True,data_sparse,,,0.0,0.0,0.0
 AWEG,True,data_sparse,,,0.0,0.0,0.0
 AWF,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AWI,False,debt/assets>0.30,Industrials,Building Products & Equipment,0.32555489227763607,0.075422030097014,0.009969939967816652
-AWK,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Water,0.42978982637831253,0.55840271756786,0.0037991963774992596
+AWI,False,debt/assets>0.30,Industrials,Building Products & Equipment,0.32555489227763607,0.0744342680875456,0.009839368993736232
+AWK,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Water,0.42978982637831253,0.549700876073614,0.003739991786184758
 AWP,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-AWR,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Regulated Water,0.3752626280442955,0.3312117696802574,0.009411753975758037
-AWRE,True,ok,Technology,Software - Application,0.09952162086108245,0.09025537124131412,0.27587009324748507
+AWR,False,debt/assets>0.30,Utilities,Utilities - Regulated Water,0.3752626280442955,0.3277182634368403,0.009312482076973891
+AWRE,True,ok,Technology,Software - Application,0.09952162086108245,0.09410513313110136,0.2876370845845068
 AX,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-AXGN,False,debt/assets>0.30,Healthcare,Medical Devices,0.33714560590591375,0.04469432513865486,0.01792952617521032
-AXL,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto Parts,0.5410185972054784,3.654998040627598,0.7382094672741548
+AXGN,False,debt/assets>0.30,Healthcare,Medical Devices,0.33714560590591375,0.04900345277689004,0.01965817106563824
+AXL,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto Parts,0.5410185972054784,3.6092391094060856,0.7289674168367579
 AXON,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
-AXP,True,ok,Financial Services,Credit Services,0.18820014661406242,0.19823452778327919,0.15734906869712734
+AXP,True,ok,Financial Services,Credit Services,0.18820014661406242,0.19190756755277427,0.15232703085595925
 AXR,False,industry_excluded,Real Estate,Real Estate - Development,0.0,0.0,0.0
 AXS,False,industry_excluded,Financial Services,Insurance - Specialty,0.0,0.0,0.0
-AXSM,False,debt/assets>0.30,Healthcare,Biotechnology,0.33941192405250326,0.025650129172538803,0.04192088924851716
-AXTA,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.4756518140433163,0.5557680818285381,0.095583083678748
-AXTI,True,ok,Technology,Semiconductor Equipment & Materials,0.14669892783675298,0.09219733407147797,0.042291454463990526
-AYI,True,ok,Industrials,Electrical Equipment & Parts,0.211221399730821,0.08810857783038516,0.037062797822916896
-AYTU,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.1756766550971597,0.9645048913348317,1.368478358771291
-AZ,True,ok,Technology,Software - Application,0.07373662464244093,0.005131915262184705,0.049866584652521785
-AZI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Auto & Truck Dealerships,0.6176053438257766,1.5652100154583426,0.22865354103888078
-AZN,True,ok,Healthcare,Drug Manufacturers - General,0.289460277791128,0.10770034280267879,0.019627398595374285
+AXSM,False,debt/assets>0.30,Healthcare,Biotechnology,0.33941192405250326,0.025831898182743143,0.042217960600257044
+AXTA,False,debt/assets>0.30|debt/mktcap>0.33,Basic Materials,Specialty Chemicals,0.4756518140433163,0.5181704232266524,0.08911689703405014
+AXTI,True,ok,Technology,Semiconductor Equipment & Materials,0.14669892783675298,0.07208947273893787,0.03306786128228235
+AYI,True,ok,Industrials,Electrical Equipment & Parts,0.211221399730821,0.08963239380088997,0.03770378970616887
+AYTU,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,0.1756766550971597,0.930956926412834,1.3208791559170314
+AZ,True,ok,Technology,Software - Application,0.07373662464244093,0.005599239735377668,0.05440755507235513
+AZI,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Auto & Truck Dealerships,0.6176053438257766,2.5852073953810475,0.3776597513661327
+AZN,True,ok,Healthcare,Drug Manufacturers - General,0.289460277791128,0.10811996826048688,0.019703871482152885
 AZNH,True,data_sparse,,,0.0,0.0,0.0
-AZO,False,debt/assets>0.30,Consumer Cyclical,Auto Parts,0.6349052074767645,0.1929027214307199,0.004266613132241268
-AZTA,True,ok,Healthcare,Medical Instruments & Supplies,0.02799564389457158,0.0365768111590188,0.19344113683600755
+AZO,False,debt/assets>0.30,Consumer Cyclical,Auto Parts,0.6349052074767645,0.2150379645519964,0.004756199376987484
+AZTA,True,ok,Healthcare,Medical Instruments & Supplies,0.024880776778977483,0.031565427022337486,0.17234153986009385
 AZTD,True,data_sparse,,,0.0,0.0,0.0
-AZZ,False,debt/assets>0.30,Industrials,Specialty Business Services,0.3947400679178897,0.2781602224316268,0.0004708112500122402
-B,True,ok,Basic Materials,Gold,0.11035988745643135,0.07490261822172328,0.0580580796490298
+AZZ,False,debt/assets>0.30,Industrials,Specialty Business Services,0.3947400679178897,0.27291731186760193,0.0004619371512831968
+B,True,ok,Basic Materials,Gold,0.11035988745643135,0.07133913923205916,0.05529597664220111
 BA,False,industry_excluded,Industrials,Aerospace & Defense,0.0,0.0,0.0
 BAB,True,data_sparse,,,0.0,0.0,0.0
-BABA,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Internet Retail,0.13751595558651988,0.6568084141800066,0.3851400014260071
+BABA,False,debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Internet Retail,0.13751595558651988,0.6679353455458504,0.39166462301974586
 BABO,True,data_sparse,,,0.0,0.0,0.0
 BABX,True,data_sparse,,,0.0,0.0,0.0
 BAC,False,industry_excluded,Financial Services,Banks - Diversified,0.0,0.0,0.0
-BAER,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Security & Protection Services,0.730916168344171,2.102683297528807,0.38912456513590776
+BAER,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Industrials,Security & Protection Services,0.730916168344171,2.2644281551603185,0.419057221881125
 BAFE,True,data_sparse,,,0.0,0.0,0.0
 BAFN,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-BAH,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Consulting Services,0.5769967177242888,0.3889512687854975,0.08158849795571589
+BAH,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Consulting Services,0.5769967177242888,0.36895454243463194,0.07739387770908966
 BAI,True,data_sparse,,,0.0,0.0,0.0
 BAIG,True,data_sparse,,,0.0,0.0,0.0
-BAK,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Basic Materials,Chemicals,0.7257888259906473,61.53274943954544,12.508203563400722
-BALL,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Packaging & Containers,0.32181756296800546,0.4251520973125302,0.06632462649772417
+BAK,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Basic Materials,Chemicals,0.7257888259906473,63.57596986247357,12.923543641776252
+BALL,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Packaging & Containers,0.32181756296800546,0.4094521091087467,0.06387539512801707
 BALY,False,industry_excluded,Consumer Cyclical,Resorts & Casinos,0.0,0.0,0.0
 BAM,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 BANC,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-BAND,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.5091016068081596,1.110319130086633,0.1803811636357
+BAND,False,debt/assets>0.30|debt/mktcap>0.33,Technology,Software - Infrastructure,0.5091016068081596,1.080506967732332,0.17553791416782344
 BANF,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BANFP,True,data_sparse,,,0.0,0.0,0.0
 BANR,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BANX,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BAOS,True,ok,Communication Services,Advertising Agencies,0.03223824477848746,0.13967499737149808,0.30188854040007373
+BAOS,True,ok,Communication Services,Advertising Agencies,0.03223824477848746,0.14126623206569414,0.305327778118383
 BAP,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BAR,True,data_sparse,,,0.0,0.0,0.0
-BARK,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.3267903389797993,0.7386429813416376,0.8153838703779772
+BARK,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Consumer Cyclical,Specialty Retail,0.3267903389797993,0.7505943960698638,0.8285769704868999
 BASE,True,data_sparse,,,0.0,0.0,0.0
 BASG,True,data_sparse,,,0.0,0.0,0.0
 BASV,True,data_sparse,,,0.0,0.0,0.0
-BATRA,False,debt/assets>0.30,Communication Services,Entertainment,0.4731219558931808,0.26902640689164137,0.04109997650464717
-BATRK,False,debt/assets>0.30,Communication Services,Entertainment,0.4731219558931808,0.2926397424433641,0.04470745707722552
+BATRA,False,debt/assets>0.30,Communication Services,Entertainment,0.4731219558931808,0.2626738879213929,0.04012948300016492
+BATRK,False,debt/assets>0.30,Communication Services,Entertainment,0.4731219558931808,0.2831146684576188,0.04325228276351274
 BATT,True,data_sparse,,,0.0,0.0,0.0
-BAX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Instruments & Supplies,0.5216430067488945,1.4111395841994163,0.185088127483662
-BB,True,ok,Technology,Software - Infrastructure,0.18447051559123187,0.09267575248858918,0.10341683342555119
+BAX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Instruments & Supplies,0.5216430067488945,1.3661895406868931,0.1791923823162822
+BB,True,ok,Technology,Software - Infrastructure,0.18447051559123187,0.09354188014805725,0.1043833449183551
 BBAG,True,data_sparse,,,0.0,0.0,0.0
-BBAI,False,debt/assets>0.30,Technology,Information Technology Services,0.4258877873964442,0.04917576682463163,0.016841213881250285
+BBAI,False,debt/assets>0.30,Technology,Information Technology Services,0.4258877873964442,0.05256719939964404,0.018002677037753923
 BBAR,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BBB,True,data_sparse,,,0.0,0.0,0.0
 BBBI,True,data_sparse,,,0.0,0.0,0.0
 BBBL,True,data_sparse,,,0.0,0.0,0.0
 BBBS,True,data_sparse,,,0.0,0.0,0.0
-BBBY,False,cashinv/mktcap>0.33,,,0.08126551794483947,0.07507054076065911,0.3658014052451661
+BBBY,False,cashinv/mktcap>0.33,,,0.08126551794483947,0.07495194884872952,0.3652235342508321
 BBC,True,data_sparse,,,0.0,0.0,0.0
 BBCB,True,data_sparse,,,0.0,0.0,0.0
-BBCP,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Engineering & Construction,0.4452310159355895,1.187721253730508,0.1278615514798538
+BBCP,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Engineering & Construction,0.4452310159355895,1.0993643081641018,0.11834967644296486
 BBD,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BBDC,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 BBDO,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-BBGI,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Broadcasting,0.5229523777312854,34.61028345202149,1.6596893489061457
+BBGI,False,debt/assets>0.30|debt/mktcap>0.33|cashinv/mktcap>0.33,Communication Services,Broadcasting,0.5229523777312854,21.485466107560995,1.0303064782591433
 BBH,True,data_sparse,,,0.0,0.0,0.0
-BBIO,False,debt/assets>0.30,Healthcare,Biotechnology,1.8824240921184592,0.12194874396397391,0.04799501871195307
-BBLG,False,cashinv/mktcap>0.33,Healthcare,Medical Devices,,,0.9596748381468755
+BBIO,False,debt/assets>0.30,Healthcare,Biotechnology,1.8824240921184592,0.1194984065034642,0.04703064639908607
+BBLG,False,cashinv/mktcap>0.33,Healthcare,Medical Devices,,,0.9137505834239691
 BBLU,True,data_sparse,,,0.0,0.0,0.0
 BBMC,True,data_sparse,,,0.0,0.0,0.0
 BBN,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BBNX,True,ok,Healthcare,Medical Devices,0.04848140599418624,0.0056090577722423375,0.023527890575448494
-BBOT,True,ok,Healthcare,Biotechnology,0.0,0.0,0.028173269064851545
+BBNX,True,ok,Healthcare,Medical Devices,0.04848140599418624,0.005537436538096526,0.023227466399359544
+BBOT,True,ok,Healthcare,Biotechnology,0.0,0.0,0.030634792454435674
 BBP,True,data_sparse,,,0.0,0.0,0.0
 BBSC,True,data_sparse,,,0.0,0.0,0.0
-BBSI,True,ok,Industrials,Staffing & Employment Services,0.028766961588608038,0.024176477353367434,0.06241625578774106
+BBSI,True,ok,Industrials,Staffing & Employment Services,0.028766961588608038,0.022827829927973116,0.05893446142040882
 BBT,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BBUC,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 BBVA,False,industry_excluded,Financial Services,Banks - Diversified,0.0,0.0,0.0
-BBW,False,debt/assets>0.30,Consumer Cyclical,Specialty Retail,0.33451972023341475,0.14748747218560834,0.04220748539040905
-BBWI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Specialty Retail,1.0178571428571428,1.277265839349222,0.17359894650562122
-BBY,True,ok,Consumer Cyclical,Specialty Retail,0.27418481937491546,0.2585549606873015,0.10066610608550745
-BC,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Recreational Vehicles,0.4423798369057893,0.5491483693836476,0.058813119148067534
-BCAB,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.015947502956773874,0.017256796622393985,1.0124124965812624
+BBW,False,debt/assets>0.30,Consumer Cyclical,Specialty Retail,0.33451972023341475,0.14011224477841103,0.04009686678377596
+BBWI,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Specialty Retail,1.0178571428571428,1.1995469612309178,0.16303582413180856
+BBY,True,ok,Consumer Cyclical,Specialty Retail,0.27418481937491546,0.26260138712995007,0.1022415467286112
+BC,False,debt/assets>0.30|debt/mktcap>0.33,Consumer Cyclical,Recreational Vehicles,0.4423798369057893,0.521017455436386,0.05580033264816174
+BCAB,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.015947502956773874,0.017248423459570644,1.0119212643517965
 BCAL,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BCAR,True,data_sparse,Financial Services,Shell Companies,0.0,0.0,0.0
 BCAT,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BCAX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.001447070173099397,0.0007401972520077833,0.4911690196178639
+BCAX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.001447070173099397,0.0007289821907450708,0.48372709703517525
 BCBP,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-BCC,True,ok,Basic Materials,Lumber & Wood Production,0.15321024650507228,0.18926618143640447,0.2615066261377422
+BCC,True,ok,Basic Materials,Lumber & Wood Production,0.15321024650507228,0.1807070284340875,0.24968055553576984
 BCD,True,data_sparse,,,0.0,0.0,0.0
-BCDA,True,ok,Healthcare,Biotechnology,0.25537056928034374,0.06540827100024707,0.1630736178144961
+BCDA,True,ok,Healthcare,Biotechnology,0.25537056928034374,0.061799536989929564,0.15407644816311566
 BCDF,True,data_sparse,,,0.0,0.0,0.0
-BCE,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.5511873171395523,1.8443619454552285,0.07158149758679684
+BCE,False,debt/assets>0.30|debt/mktcap>0.33,Communication Services,Telecom Services,0.5511873171395523,1.8319158197175522,0.07109845122940925
 BCG,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
 BCH,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
 BCHI,True,data_sparse,,,0.0,0.0,0.0
@@ -799,50 +799,10 @@ BCIL,True,data_sparse,,,0.0,0.0,0.0
 BCIM,True,data_sparse,,,0.0,0.0,0.0
 BCLO,True,data_sparse,,,0.0,0.0,0.0
 BCML,False,industry_excluded,Financial Services,Banks - Regional,0.0,0.0,0.0
-BCO,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Security & Protection Services,0.6421464268997902,0.8748198473231444,0.2870059094686065
+BCO,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Security & Protection Services,0.6421464268997902,0.8546063853326085,0.280374392065504
 BCOR,True,data_sparse,,,0.0,0.0,0.0
-BCPC,True,ok,Basic Materials,Specialty Chemicals,0.1320603210291417,0.04259263408072904,0.010137155008110296
-BCRX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,1.6490803800823783,0.5060890539335164,0.06552658710013862
+BCPC,True,ok,Basic Materials,Specialty Chemicals,0.1320603210291417,0.041096240573995406,0.009781009555773695
+BCRX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Drug Manufacturers - Specialty & Generic,1.6490803800823783,0.5074261439198124,0.0656997086935949
 BCS,False,industry_excluded,Financial Services,Banks - Diversified,0.0,0.0,0.0
 BCSF,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BCTX,True,ok,Healthcare,Biotechnology,,,0.040083756306196004
-BCUS,True,data_sparse,,,0.0,0.0,0.0
-BCX,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BCYC,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.00992090863107555,0.019356442172326644,1.7933612155698653
-BDBT,True,data_sparse,,,0.0,0.0,0.0
-BDC,False,debt/assets>0.30,Technology,Communication Equipment,0.3759790597060402,0.2589032771674997,0.0766222183216418
-BDCX,True,data_sparse,,,0.0,0.0,0.0
-BDCZ,True,data_sparse,,,0.0,0.0,0.0
-BDGS,True,data_sparse,,,0.0,0.0,0.0
-BDIV,True,data_sparse,,,0.0,0.0,0.0
-BDJ,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BDMD,False,debt/mktcap>0.33,Healthcare,Medical Devices,0.2677851264326211,0.3460177303856019,0.04922770973529688
-BDN,False,industry_excluded,Real Estate,REIT - Office,0.0,0.0,0.0
-BDRX,False,cashinv/mktcap>0.33,Healthcare,Biotechnology,0.04918809201623816,0.23283402365659941,0.5345254270740913
-BDRY,True,data_sparse,,,0.0,0.0,0.0
-BDTX,True,ok,Healthcare,Biotechnology,0.1809034572733203,0.14584248787609663,0.23952324577397158
-BDVG,True,data_sparse,,,0.0,0.0,0.0
-BDX,False,debt/assets>0.30|debt/mktcap>0.33,Healthcare,Medical Instruments & Supplies,0.3466967916854948,0.3450175958447806,0.011529966056853363
-BE,False,debt/assets>0.30,Industrials,Electrical Equipment & Parts,0.5756756533002377,0.05427164665817966,0.028482668545266297
-BEAM,True,ok,Healthcare,Biotechnology,0.14624161098146082,0.058722287810648435,0.1025723854861707
-BEAT,True,ok,Healthcare,Health Information Services,,,0.0945362214264644
-BEDZ,True,data_sparse,,,0.0,0.0,0.0
-BEEM,True,ok,Technology,Solar,0.03138677817732147,0.053352499378308146,0.12645289121701653
-BEEP,False,debt/assets>0.30|debt/mktcap>0.33,Industrials,Infrastructure Operations,0.5135594200384521,1.9684453010903797,0.09839502288487934
-BEEX,True,data_sparse,,,0.0,0.0,0.0
-BEEZ,True,data_sparse,,,0.0,0.0,0.0
-BEKE,False,industry_excluded,Real Estate,Real Estate Services,0.0,0.0,0.0
-BELFA,False,debt/assets>0.30,Technology,Electronic Components,0.33503441290644553,0.15664787876228636,0.03359925983043484
-BELFB,False,debt/assets>0.30,Technology,Electronic Components,0.33503441290644553,0.15141030924423698,0.03247585834866978
-BELT,True,data_sparse,,,0.0,0.0,0.0
-BEN,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BENF,False,industry_excluded,Financial Services,Asset Management,0.0,0.0,0.0
-BENJ,True,data_sparse,,,0.0,0.0,0.0
-BEP,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Renewable,0.3749433070700039,1.9042850047917932,0.15149426109911082
-BEPC,False,debt/assets>0.30|debt/mktcap>0.33,Utilities,Utilities - Renewable,0.31935915157832717,1.9757426480848597,0.05495573107565919
-BEPH,True,data_sparse,,,0.0,0.0,0.0
-BEPI,True,data_sparse,,,0.0,0.0,0.0
-BEPJ,True,data_sparse,,,0.0,0.0,0.0
-BERZ,True,data_sparse,,,0.0,0.0,0.0
-BETE,True,data_sparse,,,0.0,0.0,0.0
-BETH,True,data_sparse,,,0.0,0.0,0.0
+BCTX,True,ok,Healthcare,Biotechnology,,,0.047967214729280415
